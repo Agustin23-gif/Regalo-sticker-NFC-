@@ -1,0 +1,266 @@
+/* ===================================================
+   style.css — Hoja de estilos compartida
+   Regalo cumpleaños: llaveritos de gato con NFC
+   =================================================== */
+
+:root {
+  /* Paleta pastel base */
+  --crema: #fff8f0;
+  --rosa: #ffd6e8;
+  --rosa-fuerte: #ff8fb3;
+  --lavanda: #e3d6ff;
+  --lavanda-fuerte: #b18fff;
+  --celeste: #d3ecff;
+  --celeste-fuerte: #7ec4ff;
+  --texto: #5a4a4a;
+  --texto-suave: #8a7a7a;
+  --blanco: #ffffff;
+
+  /* Color de acento por defecto (se sobreescribe por página) */
+  --acento: var(--rosa-fuerte);
+  --acento-suave: var(--rosa);
+
+  --radio: 22px;
+  --sombra: 0 8px 24px rgba(90, 74, 74, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Quicksand', 'Baloo 2', sans-serif;
+  color: var(--texto);
+  background: linear-gradient(160deg, var(--crema) 0%, var(--acento-suave) 100%);
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px 48px;
+  line-height: 1.5;
+  animation: fadeIn 0.9s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ---------- Encabezado ---------- */
+.emoji-gato {
+  font-size: 3.5rem;
+  animation: float 3.2s ease-in-out infinite;
+  filter: drop-shadow(0 6px 10px rgba(0,0,0,0.08));
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(-2deg); }
+  50% { transform: translateY(-10px) rotate(2deg); }
+}
+
+h1 {
+  font-family: 'Baloo 2', 'Quicksand', sans-serif;
+  font-size: 1.9rem;
+  text-align: center;
+  color: var(--texto);
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Baloo 2', 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  color: var(--acento);
+  margin: 0 0 8px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+/* ---------- Tarjetas ---------- */
+.tarjeta {
+  background: var(--blanco);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  padding: 24px 20px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid var(--acento-suave);
+}
+
+/* ---------- Foto placeholder ---------- */
+.foto-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: repeating-linear-gradient(
+    45deg,
+    #e9e4e4,
+    #e9e4e4 10px,
+    #f2eeee 10px,
+    #f2eeee 20px
+  );
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9a8c8c;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 2px dashed #c9bcbc;
+}
+
+/* ---------- Video embed ---------- */
+.video-envoltorio {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: var(--sombra);
+}
+
+.video-envoltorio iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: 0;
+}
+
+/* ---------- Galería (gatito2) ---------- */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  width: 100%;
+}
+
+.item-galeria {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--acento-suave);
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.item-galeria .foto-placeholder {
+  aspect-ratio: 1 / 1;
+}
+
+.anecdota {
+  font-size: 0.85rem;
+  color: var(--texto);
+  text-align: center;
+  margin: 0;
+}
+
+/* ---------- Countdown (gatito3) ---------- */
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.countdown-bloque {
+  background: var(--acento-suave);
+  border-radius: 14px;
+  padding: 12px 10px;
+  min-width: 64px;
+  flex: 1;
+}
+
+.countdown-numero {
+  display: block;
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--acento);
+}
+
+.countdown-etiqueta {
+  display: block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--texto-suave);
+}
+
+/* ---------- Menú (index) ---------- */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  background: var(--blanco);
+  border-radius: var(--radio);
+  padding: 18px 20px;
+  box-shadow: var(--sombra);
+  color: var(--texto);
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: 2px solid transparent;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.menu-link:active {
+  transform: scale(0.97);
+}
+
+.menu-link.rosa { border-color: var(--rosa-fuerte); }
+.menu-link.lavanda { border-color: var(--lavanda-fuerte); }
+.menu-link.celeste { border-color: var(--celeste-fuerte); }
+
+.menu-emoji {
+  font-size: 2rem;
+}
+
+/* ---------- Navegación inferior ---------- */
+.volver {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: var(--texto-suave);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--texto-suave);
+}
+
+/* ---------- Footer ---------- */
+footer {
+  margin-top: 16px;
+  font-size: 0.75rem;
+  color: var(--texto-suave);
+  text-align: center;
+}
+
+/* ---------- Responsive: pantallas muy chicas ---------- */
+@media (max-width: 340px) {
+  h1 { font-size: 1.6rem; }
+  .emoji-gato { font-size: 3rem; }
+  .galeria { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Falta poco... ⏳</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Acento propio de esta página: celeste */
+    :root {
+      --acento: var(--celeste-fuerte);
+      --acento-suave: var(--celeste);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contenedor">
+    <div class="emoji-gato">🙀</div>
+    <h1>Falta poco... ⏳</h1>
+
+    <div class="tarjeta">
+      <h2>Cuenta regresiva</h2>
+      <div class="countdown" id="countdown">
+        <div class="countdown-bloque">
+          <span class="countdown-numero" id="dias">00</span>
+          <span class="countdown-etiqueta">días</span>
+        </div>
+        <div class="countdown-bloque">
+          <span class="countdown-numero" id="horas">00</span>
+          <span class="countdown-etiqueta">hs</span>
+        </div>
+        <div class="countdown-bloque">
+          <span class="countdown-numero" id="minutos">00</span>
+          <span class="countdown-etiqueta">min</span>
+        </div>
+        <div class="countdown-bloque">
+          <span class="countdown-numero" id="segundos">00</span>
+          <span class="countdown-etiqueta">seg</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tarjeta">
+      <!-- REEMPLAZAR: texto de la sorpresa -->
+      <p>[ESCRIBIR SORPRESA ACÁ]</p>
+    </div>
+
+    <a class="volver" href="index.html">← volver</a>
+  </div>
+
+  <script>
+    // REEMPLAZAR: fecha objetivo de la sorpresa (formato: "AAAA-MM-DDTHH:MM:SS")
+    const targetDate = new Date("2026-12-31T00:00:00");
+
+    const elDias = document.getElementById("dias");
+    const elHoras = document.getElementById("horas");
+    const elMinutos = document.getElementById("minutos");
+    const elSegundos = document.getElementById("segundos");
+    const elCountdown = document.getElementById("countdown");
+
+    function pad(numero) {
+      return String(numero).padStart(2, "0");
+    }
+
+    function actualizarCountdown() {
+      const ahora = new Date().getTime();
+      const diferencia = targetDate.getTime() - ahora;
+
+      if (diferencia <= 0) {
+        elCountdown.innerHTML = "<p>¡Llegó el día! 🎉</p>";
+        clearInterval(intervalo);
+        return;
+      }
+
+      const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+      const horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+      const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+
+      elDias.textContent = pad(dias);
+      elHoras.textContent = pad(horas);
+      elMinutos.textContent = pad(minutos);
+      elSegundos.textContent = pad(segundos);
+    }
+
+    actualizarCountdown();
+    const intervalo = setInterval(actualizarCountdown, 1000);
+  </script>
+
+</body>
+</html>
