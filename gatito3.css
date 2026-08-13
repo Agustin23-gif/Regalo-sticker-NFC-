@@ -144,7 +144,14 @@ body {
   color: var(--agenda-acento);
 }
 
-/* ---------- Versículo ---------- */
+/* ---------- Cuerpo del versículo ---------- */
+/* Padding simétrico para separar el texto de la línea de margen
+   (.agenda-hoja::before) sin descentrarlo respecto a la fecha,
+   la dedicatoria y el encabezado de arriba. */
+.cuerpo-versiculo {
+  padding: 0 22px;
+}
+
 .texto-versiculo {
   font-family: 'Fredoka', sans-serif;
   font-weight: 500;
