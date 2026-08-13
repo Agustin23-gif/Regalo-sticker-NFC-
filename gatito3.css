@@ -1,0 +1,189 @@
+/* ===================================================
+   gatito3.css — Estilos específicos de "Versículo del día"
+   Se carga después de style.css y lo complementa.
+   Las variables --agenda-* se recalculan en JS según el
+   día del año (rotación diaria de paleta de color).
+   =================================================== */
+
+:root {
+  /* Valores por defecto antes de que el JS los recalcule */
+  --agenda-fondo: #FAF0EA;
+  --agenda-acento: #E19AA6;
+  --agenda-acento-secundario: #82B0CE;
+  --agenda-texto-sticker: #3a2222;
+}
+
+body {
+  background: var(--agenda-fondo);
+  background-attachment: fixed;
+}
+
+.contenedor {
+  max-width: 420px;
+}
+
+/* ---------- Hoja de agenda ---------- */
+.agenda-hoja {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background: #fffdf8;
+  border-radius: 18px;
+  box-shadow: 0 14px 30px rgba(60, 40, 40, 0.2);
+  padding: 46px 22px 30px;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 27px,
+    rgba(80, 60, 60, 0.09) 28px
+  );
+}
+
+/* línea de margen estilo cuaderno */
+.agenda-hoja::before {
+  content: "";
+  position: absolute;
+  top: 46px;
+  bottom: 18px;
+  left: 30px;
+  width: 1.5px;
+  background: rgba(255, 90, 90, 0.3);
+}
+
+/* ---------- Espiral de agenda ---------- */
+.espiral {
+  position: absolute;
+  top: -13px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 16px;
+}
+
+.anillo {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 35% 30%,
+    #ffffff 0%,
+    var(--agenda-acento-secundario) 45%,
+    #5c6470 100%
+  );
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  flex-shrink: 0;
+}
+
+.anillo::after {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  border-radius: 50%;
+  background: var(--agenda-fondo);
+}
+
+/* ---------- Estrellitas decorativas ---------- */
+.estrellas {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.estrella {
+  position: absolute;
+  user-select: none;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.15));
+}
+
+.estrella-1 { top: 14px;  left: 14px;  font-size: 1rem;   opacity: .9; transform: rotate(-10deg); }
+.estrella-2 { top: 70px;  right: 12px; font-size: 1.3rem; opacity: .8; transform: rotate(12deg); }
+.estrella-3 { bottom: 78px; left: 10px; font-size: .9rem; opacity: .75; transform: rotate(6deg); }
+.estrella-4 { top: 140px; right: 26px; font-size: .8rem;  opacity: .9; transform: rotate(-16deg); }
+.estrella-5 { bottom: 16px; right: 20px; font-size: 1.1rem; opacity: .85; transform: rotate(8deg); }
+
+/* ---------- Fecha y dedicatoria ---------- */
+.fecha-hoy {
+  font-family: 'Fredoka', 'Baloo 2', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--texto);
+  margin: 4px 0 2px;
+}
+
+.dedicatoria {
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--texto-suave);
+  margin: 0 0 8px;
+}
+
+/* ---------- Encabezado "Versículo del día" ---------- */
+.titulo-versiculo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 6px;
+  margin: 16px 0 14px;
+}
+
+.titulo-bold {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 700;
+  font-size: 1.55rem;
+  color: var(--agenda-acento);
+}
+
+.titulo-script {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.6rem;
+  color: var(--agenda-acento);
+}
+
+/* ---------- Versículo ---------- */
+.texto-versiculo {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--texto);
+  margin: 0 0 10px;
+}
+
+.referencia-versiculo {
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--texto-suave);
+  margin: 0 0 18px;
+}
+
+.referencia-versiculo::before {
+  content: "— ";
+}
+
+/* ---------- Sticker de mensaje motivacional ---------- */
+.sticker-mensaje {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: var(--agenda-acento);
+  color: var(--agenda-texto-sticker);
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+  transform: rotate(-2deg);
+}
+
+/* ---------- Responsive: pantallas muy chicas ---------- */
+@media (max-width: 340px) {
+  .fecha-hoy { font-size: 1.2rem; }
+  .titulo-bold, .titulo-script { font-size: 1.35rem; }
+  .texto-versiculo { font-size: 0.95rem; }
+  .anillo { width: 16px; height: 16px; }
+}
