@@ -22,6 +22,19 @@ body {
   max-width: 420px;
 }
 
+/* ---------- Pista de escaneo diario ---------- */
+/* Gris neutro (no el acento de la paleta) verificado con contraste
+   >= 4.2:1 sobre las 4 paletas de fondo, para que se lea bien sin
+   competir con la fecha ni con el encabezado. */
+.pista-escaneo {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8rem;
+  color: #6b5d5d;
+  text-align: center;
+  margin: -4px 0 4px;
+  opacity: 0.85;
+}
+
 /* ---------- Hoja de agenda ---------- */
 .agenda-hoja {
   position: relative;
