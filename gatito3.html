@@ -56,7 +56,6 @@
     <a class="volver" href="index.html">← volver</a>
   </div>
 
-  <!-- PENDIENTE: reemplazar assets/versiculos.json con los 365 registros finales (por ahora tiene 10 de prueba para verificar la rotación) -->
   <script>
     // ---------- Datos de fecha en español (sin depender del locale del navegador) ----------
     const DIAS_SEMANA = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
@@ -142,9 +141,9 @@
           throw new Error('El archivo de versículos está vacío');
         }
 
-        // Día del año + offset anual, módulo cantidad de versículos disponibles.
-        // Con menos de 365 entradas (modo de prueba) el módulo igual evita
-        // que el índice quede fuera de rango.
+        // Día del año + offset anual, módulo cantidad de versículos disponibles
+        // (el módulo asegura que el índice nunca quede fuera de rango, incluso
+        // en el día 366 de un año bisiesto).
         const diaDelAnio = obtenerDiaDelAnio(fecha);
         const offset = fecha.getFullYear() % 365;
         const indice = (diaDelAnio + offset) % versiculos.length;

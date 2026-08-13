@@ -1,52 +1,1827 @@
 [
   {
+    "referencia": "Juan 3:16",
+    "texto": "Porque de tal manera amó Dios al mundo, que dio a Su Hijo unigénito, para que todo aquel que cree en Él no se pierda, sino que tenga vida eterna.",
+    "mensaje": "Dios te amó primero"
+  },
+  {
+    "referencia": "Romanos 5:8",
+    "texto": "Pero Dios demuestra su amor para con nosotros, en que siendo aún pecadores, Cristo murió por nosotros.",
+    "mensaje": "Su gracia es suficiente"
+  },
+  {
+    "referencia": "1 Juan 4:9",
+    "texto": "En esto se mostró el amor de Dios que está en nosotros: en que Dios ha enviado a Su Hijo unigénito al mundo para que vivamos por medio de Él.",
+    "mensaje": "Nada te separa de Su amor"
+  },
+  {
+    "referencia": "1 Juan 4:19",
+    "texto": "Nosotros amamos porque Él nos amó primero.",
+    "mensaje": "Eres amado sin condición"
+  },
+  {
+    "referencia": "Efesios 2:8",
+    "texto": "Porque por gracia ustedes han sido salvados por medio de la fe, y esto no procede de ustedes, sino que es don de Dios.",
+    "mensaje": "Su misericordia nunca falla"
+  },
+  {
+    "referencia": "Lamentaciones 3:22-23",
+    "texto": "Que las misericordias del Señor jamás terminan, pues nunca fallan Sus compasiones. Nuevas son cada mañana; grande es Tu fidelidad.",
+    "mensaje": "El amor de Dios es eterno"
+  },
+  {
+    "referencia": "Salmo 103:8",
+    "texto": "Compasivo y clemente es el Señor, lento para la ira y abundante en misericordia.",
+    "mensaje": "Fuiste salvo por gracia"
+  },
+  {
+    "referencia": "Romanos 8:38-39",
+    "texto": "Porque estoy convencido de que ni la muerte, ni la vida, ni ángeles, ni principados, ni lo presente, ni lo por venir, ni poderes, ni lo alto, ni lo profundo, ni ninguna otra cosa creada nos podrá separar del amor de Dios que es en Cristo Jesús Señor nuestro.",
+    "mensaje": "Su compasión es nueva cada día"
+  },
+  {
+    "referencia": "Salmo 36:7",
+    "texto": "¡Cuán preciosa es, oh Dios, Tu misericordia! Por eso los hijos de los hombres se refugian a la sombra de Tus alas.",
+    "mensaje": "Eres Su tesoro amado"
+  },
+  {
+    "referencia": "Tito 3:4-5",
+    "texto": "Pero cuando se manifestó la bondad de Dios nuestro Salvador, y Su amor hacia la humanidad, Él nos salvó, no por obras de justicia que nosotros hubiéramos hecho, sino conforme a Su misericordia.",
+    "mensaje": "El amor de Dios te alcanza"
+  },
+  {
+    "referencia": "Sofonías 3:17",
+    "texto": "El Señor tu Dios está en medio de ti, Guerrero victorioso; Se gozará en ti con alegría, En su amor se quedará en silencio, Se regocijará por ti con cantos de júbilo.",
+    "mensaje": "Su bondad te sostiene"
+  },
+  {
+    "referencia": "Salmo 86:15",
+    "texto": "Pero Tú, Señor, eres Dios compasivo y clemente, lento para la ira y abundante en misericordia y fidelidad.",
+    "mensaje": "Nada puede apagar Su amor"
+  },
+  {
+    "referencia": "Isaías 54:10",
+    "texto": "Porque los montes serán quitados y las colinas temblarán, pero Mi misericordia no se apartará de ti, ni el pacto de Mi paz será quebrantado ---dice el Señor, que tiene compasión de ti.",
+    "mensaje": "Su fidelidad es tu refugio"
+  },
+  {
+    "referencia": "Salmo 136:1",
+    "texto": "Den gracias al Señor porque Él es bueno, porque para siempre es Su misericordia.",
+    "mensaje": "Eres hijo amado de Dios"
+  },
+  {
+    "referencia": "1 Juan 3:1",
+    "texto": "Miren qué gran amor nos ha otorgado el Padre, para que seamos llamados hijos de Dios; y eso somos.",
+    "mensaje": "El amor de Dios no cambia"
+  },
+  {
+    "referencia": "2 Corintios 12:9",
+    "texto": "Y Él me ha dicho: «Te basta Mi gracia, pues Mi poder se perfecciona en la debilidad».",
+    "mensaje": "Su gracia te transforma"
+  },
+  {
+    "referencia": "Salmo 100:5",
+    "texto": "Porque el Señor es bueno; para siempre es Su misericordia, y Su fidelidad por todas las generaciones.",
+    "mensaje": "Fuiste creado para ser amado"
+  },
+  {
+    "referencia": "Gálatas 2:20",
+    "texto": "Con Cristo he sido crucificado, y ya no soy yo el que vive, sino que Cristo vive en mí; y la vida que ahora vivo en la carne, la vivo por la fe en el Hijo de Dios, el cual me amó y se entregó a sí mismo por mí.",
+    "mensaje": "Su misericordia te cubre"
+  },
+  {
     "referencia": "Deuteronomio 7:9",
-    "texto": "Reconoce, pues, que el Señor tu Dios es Dios, el Dios fiel, que guarda Su pacto y Su misericordia hasta mil generaciones con aquellos que lo aman y guardan Sus mandamientos;",
-    "mensaje": "Dios siempre es fiel"
+    "texto": "Reconoce, pues, que el Señor tu Dios es Dios, el Dios fiel, que guarda Su pacto y Su misericordia hasta mil generaciones con aquellos que Lo aman y guardan Sus mandamientos.",
+    "mensaje": "El amor de Dios es tu ancla"
   },
   {
-    "referencia": "Deuteronomio 7:10",
-    "texto": "Reconoce, pues, que el Señor tu Dios es Dios, el Dios fiel, que guarda Su pacto y Su misericordia hasta mil generaciones con aquellos que lo aman y guardan Sus mandamientos;",
-    "mensaje": "Dios siempre es fiel"
+    "referencia": "Jeremías 31:3",
+    "texto": "Desde lejos se me apareció el Señor, diciendo: «Con amor eterno te he amado, por eso te he atraído con misericordia».",
+    "mensaje": "Eres digno de Su amor"
   },
   {
-    "referencia": "Deuteronomio 7:11",
-    "texto": "Reconoce, pues, que el Señor tu Dios es Dios, el Dios fiel, que guarda Su pacto y Su misericordia hasta mil generaciones con aquellos que lo aman y guardan Sus mandamientos;",
-    "mensaje": "Dios siempre es fiel"
+    "referencia": "Salmo 145:8",
+    "texto": "El Señor es clemente y lleno de compasión, lento para la ira y grande en misericordia.",
+    "mensaje": "Su gracia va delante de ti"
   },
   {
-    "referencia": "Deuteronomio 7:12",
-    "texto": "Reconoce, pues, que el Señor tu Dios es Dios, el Dios fiel, que guarda Su pacto y Su misericordia hasta mil generaciones con aquellos que lo aman y guardan Sus mandamientos;",
-    "mensaje": "Dios siempre es fiel"
+    "referencia": "1 Pedro 5:10",
+    "texto": "Y después de que hayan sufrido un poco de tiempo, el Dios de toda gracia, que los llamó a Su gloria eterna en Cristo, Él mismo los perfeccionará, afirmará, fortalecerá y establecerá.",
+    "mensaje": "Dios se goza en ti"
   },
   {
-    "referencia": "Deuteronomio 7:13",
-    "texto": "Reconoce, pues, que el Señor tu Dios es Dios, el Dios fiel, que guarda Su pacto y Su misericordia hasta mil generaciones con aquellos que lo aman y guardan Sus mandamientos;",
-    "mensaje": "Dios siempre es fiel"
+    "referencia": "Salmo 63:3",
+    "texto": "Porque Tu misericordia es mejor que la vida, mis labios Te alabarán.",
+    "mensaje": "Su amor te busca siempre"
   },
   {
-    "referencia": "Deuteronomio 7:14",
-    "texto": "Reconoce, pues, que el Señor tu Dios es Dios, el Dios fiel, que guarda Su pacto y Su misericordia hasta mil generaciones con aquellos que lo aman y guardan Sus mandamientos;",
-    "mensaje": "Dios siempre es fiel"
+    "referencia": "Romanos 3:23-24",
+    "texto": "Por cuanto todos pecaron y no alcanzan la gloria de Dios, siendo justificados gratuitamente por Su gracia por medio de la redención que es en Cristo Jesús.",
+    "mensaje": "Eres aceptado en Cristo"
   },
   {
-    "referencia": "Deuteronomio 7:15",
-    "texto": "Reconoce, pues, que el Señor tu Dios es Dios, el Dios fiel, que guarda Su pacto y Su misericordia hasta mil generaciones con aquellos que lo aman y guardan Sus mandamientos;",
-    "mensaje": "Dios siempre es fiel"
+    "referencia": "Hebreos 4:16",
+    "texto": "Por tanto, acerquémonos con confianza al trono de la gracia para que recibamos misericordia y hallemos gracia para la ayuda oportuna.",
+    "mensaje": "Su ternura te envuelve"
   },
   {
-    "referencia": "Deuteronomio 7:16",
-    "texto": "Reconoce, pues, que el Señor tu Dios es Dios, el Dios fiel, que guarda Su pacto y Su misericordia hasta mil generaciones con aquellos que lo aman y guardan Sus mandamientos;",
-    "mensaje": "Dios siempre es fiel"
+    "referencia": "Salmo 103:11",
+    "texto": "Porque como los cielos están altos sobre la tierra, así es de grande Su misericordia para con los que Le temen.",
+    "mensaje": "El amor de Dios es tu identidad"
   },
   {
-    "referencia": "Deuteronomio 7:17",
-    "texto": "Reconoce, pues, que el Señor tu Dios es Dios, el Dios fiel, que guarda Su pacto y Su misericordia hasta mil generaciones con aquellos que lo aman y guardan Sus mandamientos;",
-    "mensaje": "Dios siempre es fiel"
+    "referencia": "Efesios 1:7",
+    "texto": "En Él tenemos redención mediante Su sangre, el perdón de nuestros pecados según las riquezas de Su gracia.",
+    "mensaje": "Su gracia alcanza lo imposible"
   },
   {
-    "referencia": "Deuteronomio 7:18",
-    "texto": "Reconoce, pues, que el Señor tu Dios es Dios, el Dios fiel, que guarda Su pacto y Su misericordia hasta mil generaciones con aquellos que lo aman y guardan Sus mandamientos;",
-    "mensaje": "Dios siempre es fiel"
+    "referencia": "Salmo 23:6",
+    "texto": "Ciertamente el bien y la misericordia me seguirán todos los días de mi vida, y en la casa del Señor moraré por largos días.",
+    "mensaje": "Eres amado tal como eres"
+  },
+  {
+    "referencia": "2 Tesalonicenses 2:16-17",
+    "texto": "Y nuestro Señor Jesucristo mismo, y Dios nuestro Padre, que nos amó y nos dio consolación eterna y buena esperanza por gracia, consuele sus corazones y los afirme en toda obra y palabra buena.",
+    "mensaje": "Su amor renueva cada mañana"
+  },
+  {
+    "referencia": "Isaías 49:15",
+    "texto": "¿Puede una mujer olvidar a su niño de pecho, y no tener compasión del hijo de sus entrañas? Aunque ella se olvidara, Yo no te olvidaré.",
+    "mensaje": "Dios nunca deja de amarte"
+  },
+  {
+    "referencia": "Salmo 23:1",
+    "texto": "El Señor es mi pastor, nada me faltará.",
+    "mensaje": "Dios es tu refugio seguro"
+  },
+  {
+    "referencia": "Filipenses 4:6-7",
+    "texto": "Por nada estén afanosos; antes bien, en todo, mediante oración y ruego con acción de gracias, sean dadas a conocer sus peticiones delante de Dios. Y la paz de Dios, que sobrepasa todo entendimiento, guardará sus corazones y sus mentes en Cristo Jesús.",
+    "mensaje": "Su paz sobrepasa todo entendimiento"
+  },
+  {
+    "referencia": "Salmo 91:1-2",
+    "texto": "El que habita al abrigo del Altísimo morará a la sombra del Omnipotente. Diré yo al Señor: «Refugio mío y fortaleza mía, mi Dios, en quien confío».",
+    "mensaje": "No temas, Él está contigo"
+  },
+  {
+    "referencia": "Juan 14:27",
+    "texto": "La paz les dejo, Mi paz les doy; no se la doy a ustedes como el mundo la da. No se turbe su corazón ni tenga miedo.",
+    "mensaje": "Confía y descansa en Él"
+  },
+  {
+    "referencia": "Isaías 26:3",
+    "texto": "Al de carácter firme lo guardarás en perfecta paz, porque en Ti confía.",
+    "mensaje": "Eres protegido bajo Sus alas"
+  },
+  {
+    "referencia": "Proverbios 3:5-6",
+    "texto": "Confía en el Señor con todo tu corazón, y no te apoyes en tu propio entendimiento. Reconócelo en todos tus caminos, y Él enderezará tus sendas.",
+    "mensaje": "Su paz calma tu ansiedad"
+  },
+  {
+    "referencia": "Salmo 46:1",
+    "texto": "Dios es nuestro refugio y fortaleza, nuestro pronto auxilio en las tribulaciones.",
+    "mensaje": "Dios pelea tus batallas"
+  },
+  {
+    "referencia": "Salmo 27:1",
+    "texto": "El Señor es mi luz y mi salvación; ¿de quién temeré? El Señor es la fortaleza de mi vida; ¿de quién tendré temor?",
+    "mensaje": "Estás seguro en Sus manos"
+  },
+  {
+    "referencia": "Isaías 41:10",
+    "texto": "No temas, porque Yo estoy contigo; no te desalientes, porque Yo soy tu Dios. Te fortaleceré, ciertamente te ayudaré, sí, te sostendré con la diestra de Mi justicia.",
+    "mensaje": "Su presencia disipa el miedo"
+  },
+  {
+    "referencia": "Salmo 56:3",
+    "texto": "En el día en que tenga miedo, yo en Ti confiaré.",
+    "mensaje": "Puedes confiar en Su cuidado"
+  },
+  {
+    "referencia": "Salmo 121:1-2",
+    "texto": "Levantaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene del Señor, que hizo los cielos y la tierra.",
+    "mensaje": "Dios es tu fortaleza y escudo"
+  },
+  {
+    "referencia": "Salmo 4:8",
+    "texto": "En paz me acostaré y asimismo dormiré, porque solo Tú, Señor, me haces habitar seguro.",
+    "mensaje": "Su paz guarda tu corazón"
+  },
+  {
+    "referencia": "Proverbios 18:10",
+    "texto": "El nombre del Señor es torre fuerte; a ella corre el justo y está a salvo.",
+    "mensaje": "No estás solo, Él vela por ti"
+  },
+  {
+    "referencia": "Salmo 34:7",
+    "texto": "El ángel del Señor acampa alrededor de los que Le temen, y los libra.",
+    "mensaje": "Descansa, Dios tiene el control"
+  },
+  {
+    "referencia": "Salmo 118:6",
+    "texto": "El Señor está a mi favor; no temeré. ¿Qué puede hacerme el hombre?",
+    "mensaje": "Su protección nunca falla"
+  },
+  {
+    "referencia": "Mateo 6:34",
+    "texto": "Por tanto, no se afanen por el día de mañana; porque el día de mañana se afanará por sí mismo. Es suficiente para cada día su propio mal.",
+    "mensaje": "Eres guardado por Su poder"
+  },
+  {
+    "referencia": "Salmo 62:1-2",
+    "texto": "En Dios solamente espera en silencio mi alma; de Él viene mi salvación. Solo Él es mi roca y mi salvación, mi baluarte; no seré sacudido en gran manera.",
+    "mensaje": "La paz de Dios te sostiene"
+  },
+  {
+    "referencia": "Salmo 16:8",
+    "texto": "Al Señor he puesto continuamente delante de mí; porque está a mi diestra, no seré sacudido.",
+    "mensaje": "Confía, Él ya lo resolvió"
+  },
+  {
+    "referencia": "Salmo 32:7",
+    "texto": "Tú eres mi escondedero; me guardarás de la angustia; me rodearás con cantos de liberación.",
+    "mensaje": "Dios es tu torre fuerte"
+  },
+  {
+    "referencia": "Isaías 12:2",
+    "texto": "«He aquí, Dios es mi salvación; confiaré y no temeré; porque el Señor Dios es mi fortaleza y mi canción, y Él ha sido mi salvación».",
+    "mensaje": "Su paz vence toda tormenta"
+  },
+  {
+    "referencia": "Salmo 18:2",
+    "texto": "El Señor es mi roca, mi baluarte y mi liberador; mi Dios, mi roca en quien me refugio; mi escudo y el cuerno de mi salvación, mi altura inexpugnable.",
+    "mensaje": "Estás cubierto por Su gracia"
+  },
+  {
+    "referencia": "Colosenses 3:15",
+    "texto": "Que la paz de Cristo reine en sus corazones, a la cual en verdad fueron llamados en un solo cuerpo; y sean agradecidos.",
+    "mensaje": "Dios cuida cada paso tuyo"
+  },
+  {
+    "referencia": "Salmo 34:4",
+    "texto": "Busqué al Señor, y Él me respondió, y me libró de todos mis temores.",
+    "mensaje": "Su calma es tu fortaleza"
+  },
+  {
+    "referencia": "2 Tesalonicenses 3:16",
+    "texto": "Y que el mismo Señor de paz les conceda paz siempre en toda circunstancia. El Señor sea con todos ustedes.",
+    "mensaje": "Nada te puede quitar Su paz"
+  },
+  {
+    "referencia": "Salmo 91:11",
+    "texto": "Pues Él dará órdenes a Sus ángeles acerca de ti, para que te guarden en todos tus caminos.",
+    "mensaje": "Confía en Su tiempo perfecto"
+  },
+  {
+    "referencia": "Salmo 121:7-8",
+    "texto": "El Señor te protegerá de todo mal; Él guardará tu alma. El Señor guardará tu salida y tu entrada desde ahora y para siempre.",
+    "mensaje": "Eres protegido, no lo dudes"
+  },
+  {
+    "referencia": "Salmo 9:9",
+    "texto": "El Señor también será baluarte para el oprimido, baluarte en tiempos de angustia.",
+    "mensaje": "Su presencia es tu seguridad"
+  },
+  {
+    "referencia": "Salmo 144:2",
+    "texto": "Misericordia mía y fortaleza mía, mi baluarte y mi librador, mi escudo en quien me he refugiado.",
+    "mensaje": "Descansa en Su cuidado hoy"
+  },
+  {
+    "referencia": "Salmo 46:10",
+    "texto": "«Estén quietos, y sepan que Yo soy Dios; seré exaltado entre las naciones, seré exaltado en la tierra».",
+    "mensaje": "Dios nunca te suelta la mano"
+  },
+  {
+    "referencia": "Josué 1:9",
+    "texto": "«¿No te lo he mandado Yo? ¡Sé fuerte y valiente! No temas ni te acobardes, porque el Señor tu Dios estará contigo dondequiera que vayas».",
+    "mensaje": "Su paz es tu regalo diario"
+  },
+  {
+    "referencia": "Isaías 40:29",
+    "texto": "Él da fuerzas al fatigado, y al que no tiene fuerzas, aumenta el vigor.",
+    "mensaje": "Todo lo puedes en Cristo"
+  },
+  {
+    "referencia": "Isaías 40:31",
+    "texto": "Pero los que esperan en el Señor renovarán sus fuerzas; se remontarán con alas como las águilas, correrán y no se cansarán, caminarán y no se fatigarán.",
+    "mensaje": "Dios renueva tus fuerzas"
+  },
+  {
+    "referencia": "Filipenses 4:13",
+    "texto": "Todo lo puedo en Cristo que me fortalece.",
+    "mensaje": "No estás solo en la lucha"
+  },
+  {
+    "referencia": "Efesios 6:10",
+    "texto": "Por lo demás, fortalézcanse en el Señor y en el poder de su fuerza.",
+    "mensaje": "Su poder se perfecciona en tu debilidad"
+  },
+  {
+    "referencia": "Nehemías 8:10",
+    "texto": "No se entristezcan, porque el gozo del Señor es su fortaleza.",
+    "mensaje": "Eres más fuerte de lo que crees"
+  },
+  {
+    "referencia": "2 Corintios 4:16",
+    "texto": "Por tanto no desfallecemos; antes bien, aunque nuestro hombre exterior va decayendo, sin embargo nuestro hombre interior se renueva de día en día.",
+    "mensaje": "Dios te sostiene hoy"
+  },
+  {
+    "referencia": "2 Timoteo 1:7",
+    "texto": "Porque no nos ha dado Dios espíritu de cobardía, sino de poder, de amor y de dominio propio.",
+    "mensaje": "Levántate, Él te da fuerzas"
+  },
+  {
+    "referencia": "Salmo 28:7",
+    "texto": "El Señor es mi fuerza y mi escudo; en Él confió mi corazón, y fui ayudado; por tanto, mi corazón se regocija, y con mi cántico Le daré gracias.",
+    "mensaje": "Su fortaleza es tu impulso"
+  },
+  {
+    "referencia": "Salmo 73:26",
+    "texto": "Mi carne y mi corazón pueden desfallecer, pero Dios es la fortaleza de mi corazón y mi porción para siempre.",
+    "mensaje": "No desmayes, Dios va contigo"
+  },
+  {
+    "referencia": "Deuteronomio 31:6",
+    "texto": "Sean firmes y valientes, no teman ni se aterroricen ante ellos, porque el Señor tu Dios es el que va contigo; no te dejará ni te desamparará.",
+    "mensaje": "Eres valiente en Su poder"
+  },
+  {
+    "referencia": "1 Corintios 16:13",
+    "texto": "Estén alerta, permanezcan firmes en la fe, pórtense varonilmente, sean fuertes.",
+    "mensaje": "Dios es tu fuerza cada día"
+  },
+  {
+    "referencia": "Salmo 138:3",
+    "texto": "En el día que invoqué, me respondiste; me hiciste valiente con fortaleza en mi alma.",
+    "mensaje": "Su gracia te levanta"
+  },
+  {
+    "referencia": "1 Crónicas 16:11",
+    "texto": "Busquen al Señor y Su fortaleza; busquen Su rostro continuamente.",
+    "mensaje": "Sigue adelante, Él te acompaña"
+  },
+  {
+    "referencia": "Salmo 18:32",
+    "texto": "El Dios que me ciñe de poder, y hace perfecto mi camino.",
+    "mensaje": "Eres capaz por Su poder"
+  },
+  {
+    "referencia": "2 Corintios 12:10",
+    "texto": "Por eso me complazco en las debilidades, en insultos, en necesidades, en persecuciones, en angustias, por amor a Cristo; porque cuando soy débil, entonces soy fuerte.",
+    "mensaje": "Dios pelea contigo, no temas"
+  },
+  {
+    "referencia": "Salmo 29:11",
+    "texto": "El Señor dará fuerza a Su pueblo; el Señor bendecirá a Su pueblo con paz.",
+    "mensaje": "Su fuerza nunca se agota"
+  },
+  {
+    "referencia": "Isaías 35:4",
+    "texto": "Digan a los de corazón tímido: «Sean fuertes, no teman. He aquí, su Dios viene con venganza, la retribución de Dios vendrá, pero Él los salvará».",
+    "mensaje": "Puedes con lo que viene hoy"
+  },
+  {
+    "referencia": "Salmo 119:28",
+    "texto": "Se consume mi alma de anhelo; fortaléceme conforme a Tu palabra.",
+    "mensaje": "Dios renueva tu ánimo"
+  },
+  {
+    "referencia": "Salmo 31:24",
+    "texto": "Sean fuertes, y cobre ánimo su corazón, todos los que esperan en el Señor.",
+    "mensaje": "Eres fuerte en tu debilidad"
+  },
+  {
+    "referencia": "Habacuc 3:19",
+    "texto": "El Señor Dios es mi fortaleza; Él ha hecho mis pies como los de las ciervas, y me hace caminar por mis alturas.",
+    "mensaje": "Su mano te sostiene firme"
+  },
+  {
+    "referencia": "Salmo 84:5",
+    "texto": "¡Cuán bienaventurado es el hombre cuyo poder está en Ti, en cuyo corazón están los caminos a Sion!",
+    "mensaje": "Levanta la mirada, Él te ayuda"
+  },
+  {
+    "referencia": "Salmo 84:7",
+    "texto": "Van de poder en poder, cada uno comparece ante Dios en Sion.",
+    "mensaje": "Dios te da valor hoy"
+  },
+  {
+    "referencia": "Jeremías 16:19",
+    "texto": "Oh Señor, fuerza mía y fortaleza mía, y mi refugio en el día de la angustia.",
+    "mensaje": "Su fortaleza es tu descanso"
+  },
+  {
+    "referencia": "Salmo 68:35",
+    "texto": "Imponente es Dios desde Su santuario. El Dios de Israel mismo da poder y fuerza al pueblo. ¡Bendito sea Dios!",
+    "mensaje": "No te rindas, sigue confiando"
+  },
+  {
+    "referencia": "Salmo 105:4",
+    "texto": "Busquen al Señor y Su fortaleza; busquen Su rostro continuamente.",
+    "mensaje": "Eres vencedor en Cristo"
+  },
+  {
+    "referencia": "Éxodo 15:2",
+    "texto": "El Señor es mi fortaleza y mi canción, y ha sido mi salvación; este es mi Dios, y Lo glorificaré; el Dios de mi padre, y Lo exaltaré.",
+    "mensaje": "Dios renueva tus alas"
+  },
+  {
+    "referencia": "Zacarías 4:6",
+    "texto": "Esta es la palabra del Señor a Zorobabel: «No por el poder ni por la fuerza, sino por Mi Espíritu», dice el Señor de los ejércitos.",
+    "mensaje": "Su poder obra en ti"
+  },
+  {
+    "referencia": "Salmo 140:7",
+    "texto": "Oh Dios, Señor, poder de mi salvación, Tú cubriste mi cabeza en el día de la batalla.",
+    "mensaje": "Sigue firme, Él te fortalece"
+  },
+  {
+    "referencia": "Salmo 118:14",
+    "texto": "El Señor es mi fuerza y mi canción, y ha sido mi salvación.",
+    "mensaje": "Eres más que vencedor"
+  },
+  {
+    "referencia": "Deuteronomio 33:25",
+    "texto": "Hierro y bronce serán tus cerrojos, y como tus días será tu fuerza.",
+    "mensaje": "Dios es tu fuerza constante"
+  },
+  {
+    "referencia": "Hebreos 11:1",
+    "texto": "Ahora bien, la fe es la certeza de lo que se espera, la convicción de lo que no se ve.",
+    "mensaje": "Dios tiene planes de bien para ti"
+  },
+  {
+    "referencia": "Jeremías 29:11",
+    "texto": "«Porque Yo sé los planes que tengo para ustedes», declara el Señor, «planes de bienestar y no de calamidad, para darles un futuro y una esperanza».",
+    "mensaje": "Tu futuro está en Sus manos"
+  },
+  {
+    "referencia": "Romanos 15:13",
+    "texto": "Y el Dios de la esperanza los llene de todo gozo y paz en la fe, para que abunden en esperanza por el poder del Espíritu Santo.",
+    "mensaje": "La fe mueve montañas"
+  },
+  {
+    "referencia": "Hebreos 11:6",
+    "texto": "Y sin fe es imposible agradar a Dios; porque es necesario que el que se acerca a Dios crea que Él existe, y que es remunerador de los que Lo buscan.",
+    "mensaje": "Espera en Él, no te defraudará"
+  },
+  {
+    "referencia": "2 Corintios 5:7",
+    "texto": "Porque por fe caminamos, no por vista.",
+    "mensaje": "Dios cumple lo que promete"
+  },
+  {
+    "referencia": "Romanos 8:28",
+    "texto": "Y sabemos que para los que aman a Dios, todas las cosas cooperan para bien, esto es, para los que son llamados conforme a Su propósito.",
+    "mensaje": "Tu esperanza está segura en Él"
+  },
+  {
+    "referencia": "Marcos 11:24",
+    "texto": "Por eso les digo que todas las cosas por las que oren y pidan, crean que ya las han recibido, y les serán concedidas.",
+    "mensaje": "Cree, y verás Su gloria"
+  },
+  {
+    "referencia": "Romanos 10:17",
+    "texto": "Así que la fe viene del oír, y el oír, por la palabra de Cristo.",
+    "mensaje": "Dios ya preparó tu camino"
+  },
+  {
+    "referencia": "Proverbios 23:18",
+    "texto": "Porque ciertamente hay un porvenir, y tu esperanza no será cortada.",
+    "mensaje": "La fe abre puertas imposibles"
+  },
+  {
+    "referencia": "Salmo 39:7",
+    "texto": "Y ahora, Señor, ¿qué espero? En Ti está mi esperanza.",
+    "mensaje": "Confía, lo mejor está por venir"
+  },
+  {
+    "referencia": "Hebreos 10:23",
+    "texto": "Mantengamos firme la profesión de nuestra esperanza sin vacilar, porque Fiel es El que prometió.",
+    "mensaje": "Dios escribe tu historia"
+  },
+  {
+    "referencia": "1 Pedro 1:3",
+    "texto": "Bendito sea el Dios y Padre de nuestro Señor Jesucristo, quien según Su gran misericordia, nos ha hecho nacer de nuevo a una esperanza viva, mediante la resurrección de Jesucristo de entre los muertos.",
+    "mensaje": "Nada es imposible para Dios"
+  },
+  {
+    "referencia": "Salmo 62:5",
+    "texto": "Alma mía, espera en silencio solamente en Dios, pues de Él viene mi esperanza.",
+    "mensaje": "Tu fe te sostiene hoy"
+  },
+  {
+    "referencia": "Gálatas 2:16",
+    "texto": "Sabiendo que el hombre no es justificado por las obras de la ley, sino mediante la fe en Cristo Jesús.",
+    "mensaje": "Dios renueva tu esperanza"
+  },
+  {
+    "referencia": "Efesios 3:12",
+    "texto": "En quien tenemos audacia y acceso con confianza por medio de la fe en Él.",
+    "mensaje": "El futuro es de quien confía en Dios"
+  },
+  {
+    "referencia": "Marcos 9:23",
+    "texto": "Jesús le dijo: «¿Cómo \\\"si puedes\\\"? Todas las cosas son posibles para el que cree».",
+    "mensaje": "Cree en lo que aún no ves"
+  },
+  {
+    "referencia": "1 Corintios 13:13",
+    "texto": "Y ahora permanecen la fe, la esperanza y el amor, estos tres; pero el mayor de ellos es el amor.",
+    "mensaje": "Dios va delante preparando el camino"
+  },
+  {
+    "referencia": "Salmo 71:5",
+    "texto": "Porque Tú eres mi esperanza; oh Señor Dios, Tú eres mi confianza desde mi juventud.",
+    "mensaje": "Tu esperanza no será avergonzada"
+  },
+  {
+    "referencia": "Salmo 130:5",
+    "texto": "Espero en el Señor; en Él espera mi alma, y en Su palabra tengo mi esperanza.",
+    "mensaje": "Dios tiene el mañana resuelto"
+  },
+  {
+    "referencia": "Romanos 5:5",
+    "texto": "Y la esperanza no avergüenza, porque el amor de Dios ha sido derramado en nuestros corazones por medio del Espíritu Santo que nos fue dado.",
+    "mensaje": "La fe te lleva más lejos"
+  },
+  {
+    "referencia": "Proverbios 4:18",
+    "texto": "Pero la senda de los justos es como la luz de la aurora, que va aumentando en resplandor hasta que es pleno día.",
+    "mensaje": "Dios es fiel a Sus promesas"
+  },
+  {
+    "referencia": "Santiago 1:3",
+    "texto": "Sabiendo que la prueba de su fe produce paciencia.",
+    "mensaje": "Espera con fe, Él actúa"
+  },
+  {
+    "referencia": "1 Pedro 1:21",
+    "texto": "Que por medio de Él son creyentes en Dios, el cual Lo resucitó de entre los muertos y Le dio gloria, de manera que la fe y esperanza de ustedes sean en Dios.",
+    "mensaje": "Tu destino está en buenas manos"
+  },
+  {
+    "referencia": "Salmo 42:11",
+    "texto": "¿Por qué te abates, alma mía, y por qué te turbas dentro de mí? Espera en Dios, pues he de alabarle otra vez ¡Él es la salud de mi rostro, y mi Dios!",
+    "mensaje": "Dios abre camino donde no lo hay"
+  },
+  {
+    "referencia": "Romanos 8:24-25",
+    "texto": "Porque en esperanza hemos sido salvados, pero la esperanza que se ve, no es esperanza; pues, ¿quién espera lo que ya ve? Pero si esperamos lo que no vemos, con paciencia lo aguardamos.",
+    "mensaje": "La esperanza en Dios no falla"
+  },
+  {
+    "referencia": "Colosenses 1:27",
+    "texto": "A quienes Dios quiso dar a conocer cuáles son las riquezas de la gloria de este misterio entre los gentiles, que es Cristo en ustedes, la esperanza de la gloria.",
+    "mensaje": "Cree, Dios ya está obrando"
+  },
+  {
+    "referencia": "Lamentaciones 3:24",
+    "texto": "«El Señor es mi porción», dice mi alma, «por eso en Él espero».",
+    "mensaje": "Tu fe es más fuerte que el miedo"
+  },
+  {
+    "referencia": "2 Corintios 4:18",
+    "texto": "Al no mirar nosotros las cosas que se ven, sino las que no se ven; pues las cosas que se ven son temporales, pero las que no se ven son eternas.",
+    "mensaje": "Dios sostiene cada promesa"
+  },
+  {
+    "referencia": "Mateo 17:20",
+    "texto": "Si tienen fe como un grano de mostaza, dirán a este monte: «Pásate de aquí allá», y se pasará; y nada les será imposible.",
+    "mensaje": "El mejor capítulo aún no se escribe"
+  },
+  {
+    "referencia": "Tito 2:13",
+    "texto": "Aguardando la esperanza bienaventurada y la manifestación de la gloria de nuestro gran Dios y Salvador Cristo Jesús.",
+    "mensaje": "Confía, Dios nunca llega tarde"
+  },
+  {
+    "referencia": "Santiago 1:5",
+    "texto": "Y si a alguno de ustedes le falta sabiduría, pídala a Dios, el cual da a todos abundantemente y sin reproche, y le será dada.",
+    "mensaje": "Dios escucha cada oración"
+  },
+  {
+    "referencia": "Jeremías 33:3",
+    "texto": "«Clama a Mí, y Yo te responderé y te revelaré cosas grandes e inaccesibles, que tú no conoces».",
+    "mensaje": "Pide sabiduría, Él la da"
+  },
+  {
+    "referencia": "Salmo 119:105",
+    "texto": "Lámpara es a mis pies Tu palabra, y luz para mi camino.",
+    "mensaje": "Dios guía tus pasos"
+  },
+  {
+    "referencia": "Mateo 7:7",
+    "texto": "Pidan, y se les dará; busquen, y hallarán; llamen, y se les abrirá.",
+    "mensaje": "Ora sin cesar, Él responde"
+  },
+  {
+    "referencia": "1 Tesalonicenses 5:16-18",
+    "texto": "Estén siempre gozosos; oren sin cesar; den gracias en todo, porque esta es la voluntad de Dios para ustedes en Cristo Jesús.",
+    "mensaje": "Su sabiduría es tuya al pedirla"
+  },
+  {
+    "referencia": "Proverbios 2:6",
+    "texto": "Porque el Señor da sabiduría, de Su boca provienen el conocimiento y la inteligencia.",
+    "mensaje": "Dios endereza tu camino"
+  },
+  {
+    "referencia": "Proverbios 9:10",
+    "texto": "El principio de la sabiduría es el temor del Señor, y el conocimiento del Santo es inteligencia.",
+    "mensaje": "No te apoyes en tu propio entender"
+  },
+  {
+    "referencia": "Salmo 25:4-5",
+    "texto": "Hazme conocer Tus caminos, oh Señor; enséñame Tus sendas. Guíame en Tu verdad y enséñame, porque Tú eres el Dios de mi salvación.",
+    "mensaje": "Habla con Dios, Él te escucha"
+  },
+  {
+    "referencia": "Proverbios 16:3",
+    "texto": "Encomienda al Señor tus obras, y tus pensamientos serán afirmados.",
+    "mensaje": "Su dirección es siempre segura"
+  },
+  {
+    "referencia": "1 Juan 5:14",
+    "texto": "Esta es la confianza que tenemos delante de Él, que si pedimos cualquier cosa conforme a Su voluntad, Él nos oye.",
+    "mensaje": "Pide y Dios te guiará"
+  },
+  {
+    "referencia": "Colosenses 4:2",
+    "texto": "Perseveren en la oración, velando en ella con acción de gracias.",
+    "mensaje": "Dios da sabiduría sin reprochar"
+  },
+  {
+    "referencia": "Salmo 32:8",
+    "texto": "Yo te haré entender y te enseñaré el camino en que debes andar; sobre ti fijaré Mis ojos.",
+    "mensaje": "Confía en Su guía, no en la tuya"
+  },
+  {
+    "referencia": "Salmo 143:8",
+    "texto": "Hazme oír por la mañana Tu misericordia, porque en Ti he confiado; enséñame el camino por donde debo andar, pues a Ti elevo mi alma.",
+    "mensaje": "La oración cambia todo"
+  },
+  {
+    "referencia": "Proverbios 3:13",
+    "texto": "Bienaventurado el hombre que halla sabiduría y el hombre que adquiere entendimiento.",
+    "mensaje": "Dios ilumina tu camino"
+  },
+  {
+    "referencia": "Marcos 11:25",
+    "texto": "Y cuando estén orando, perdonen si tienen algo contra alguien, para que también su Padre que está en los cielos les perdone a ustedes sus transgresiones.",
+    "mensaje": "Busca Su rostro primero"
+  },
+  {
+    "referencia": "Proverbios 15:1",
+    "texto": "La suave respuesta quita la ira, pero la palabra áspera hace subir el furor.",
+    "mensaje": "Su Palabra guía tus pasos"
+  },
+  {
+    "referencia": "Santiago 3:17",
+    "texto": "Pero la sabiduría de lo alto es primeramente pura, después pacífica, amable, condescendiente, llena de misericordia y de buenos frutos, inquebrantable, sin hipocresía.",
+    "mensaje": "Dios responde a tiempo"
+  },
+  {
+    "referencia": "Salmo 5:3",
+    "texto": "Oh Señor, de mañana oirás mi voz; de mañana me presentaré ante Ti y esperaré.",
+    "mensaje": "Ora con fe, Él actúa"
+  },
+  {
+    "referencia": "Proverbios 19:20",
+    "texto": "Escucha el consejo y acepta la corrección, para que seas sabio el resto de tus días.",
+    "mensaje": "Su sabiduría supera la tuya"
+  },
+  {
+    "referencia": "Lucas 11:9",
+    "texto": "Y Yo les digo: Pidan, y se les dará; busquen, y hallarán; llamen, y se les abrirá.",
+    "mensaje": "Dios dirige a quien confía"
+  },
+  {
+    "referencia": "Salmo 86:11",
+    "texto": "Enséñame, oh Señor, Tu camino; caminaré en Tu verdad; unifica mi corazón para que tema Tu nombre.",
+    "mensaje": "La oración es tu mayor arma"
+  },
+  {
+    "referencia": "Proverbios 4:7",
+    "texto": "Lo principal es la sabiduría; adquiere sabiduría, y con todo lo que adquieras, adquiere inteligencia.",
+    "mensaje": "Busca Su voluntad hoy"
+  },
+  {
+    "referencia": "Efesios 5:15-16",
+    "texto": "Por tanto, tengan cuidado de cómo andan; no como insensatos, sino como sabios, aprovechando bien el tiempo, porque los días son malos.",
+    "mensaje": "Dios aclara lo confuso"
+  },
+  {
+    "referencia": "Salmo 119:130",
+    "texto": "La exposición de Tus palabras imparte luz; da entendimiento a los simples.",
+    "mensaje": "Su consejo es siempre bueno"
+  },
+  {
+    "referencia": "Daniel 2:23",
+    "texto": "A Ti, Dios de mis padres, doy gracias y alabo, porque me has dado sabiduría y poder.",
+    "mensaje": "Ora, Dios ya tiene la respuesta"
+  },
+  {
+    "referencia": "Proverbios 16:9",
+    "texto": "El corazón del hombre traza su camino, pero el Señor dirige sus pasos.",
+    "mensaje": "Camina guiado por Su Espíritu"
+  },
+  {
+    "referencia": "Salmo 37:5",
+    "texto": "Encomienda al Señor tu camino, confía en Él, que Él actuará.",
+    "mensaje": "Dios te muestra el camino"
+  },
+  {
+    "referencia": "Salmo 119:11",
+    "texto": "En mi corazón he atesorado Tu palabra, para no pecar contra Ti.",
+    "mensaje": "Pide dirección, Él te guía"
+  },
+  {
+    "referencia": "Proverbios 1:7",
+    "texto": "El temor del Señor es el principio del conocimiento; los insensatos desprecian la sabiduría y la instrucción.",
+    "mensaje": "Su sabiduría es tu mejor guía"
+  },
+  {
+    "referencia": "Filipenses 4:8",
+    "texto": "Por lo demás, hermanos, todo lo que es verdadero, todo lo digno, todo lo justo, todo lo puro, todo lo amable, todo lo de buen nombre, si hay alguna virtud o algo digno de alabanza, en esto piensen.",
+    "mensaje": "Dios enderezará tus veredas"
+  },
+  {
+    "referencia": "Salmo 118:24",
+    "texto": "Este es el día que el Señor ha hecho; regocijémonos y alegrémonos en él.",
+    "mensaje": "El gozo del Señor es tu fuerza"
+  },
+  {
+    "referencia": "Filipenses 4:4",
+    "texto": "Regocíjense en el Señor siempre. Otra vez lo diré: ¡Regocíjense!",
+    "mensaje": "Da gracias en toda circunstancia"
+  },
+  {
+    "referencia": "Salmo 100:1-2",
+    "texto": "Aclamen con júbilo al Señor, toda la tierra. Sirvan al Señor con alegría; vengan ante Su presencia con regocijo.",
+    "mensaje": "Alaba a Dios hoy"
+  },
+  {
+    "referencia": "Salmo 150:6",
+    "texto": "¡Todo lo que respira alabe al Señor! ¡Aleluya!",
+    "mensaje": "Su gozo no depende de tus circunstancias"
+  },
+  {
+    "referencia": "1 Crónicas 16:34",
+    "texto": "Den gracias al Señor, porque Él es bueno; porque para siempre es Su misericordia.",
+    "mensaje": "Agradece, Dios es bueno"
+  },
+  {
+    "referencia": "Salmo 103:1-2",
+    "texto": "Bendice, alma mía, al Señor, y bendiga todo mi ser Su santo nombre. Bendice, alma mía, al Señor, y no olvides ninguno de Sus beneficios.",
+    "mensaje": "Canta, Dios merece tu alabanza"
+  },
+  {
+    "referencia": "Salmo 16:11",
+    "texto": "Me darás a conocer el sendero de la vida; en Tu presencia hay plenitud de gozo; en Tu diestra, deleites para siempre.",
+    "mensaje": "El gozo verdadero viene de Él"
+  },
+  {
+    "referencia": "Salmo 34:1",
+    "texto": "Bendeciré al Señor en todo tiempo; su alabanza estará continuamente en mi boca.",
+    "mensaje": "Da gracias por Su fidelidad"
+  },
+  {
+    "referencia": "Colosenses 3:16",
+    "texto": "Que la palabra de Cristo habite en abundancia en ustedes, con toda sabiduría enseñándose y amonestándose unos a otros con salmos, himnos y canciones espirituales, cantando a Dios con gratitud en sus corazones.",
+    "mensaje": "Alégrate, el Señor está cerca"
+  },
+  {
+    "referencia": "Salmo 95:1-2",
+    "texto": "Vengan, cantemos con gozo al Señor; aclamemos con júbilo a la roca de nuestra salvación. Vengamos ante Su presencia con acción de gracias; aclamemos a Él con salmos.",
+    "mensaje": "Su presencia trae gozo pleno"
+  },
+  {
+    "referencia": "Habacuc 3:17-18",
+    "texto": "Aunque la higuera no florezca, ni haya fruto en las viñas\\... con todo, yo me alegraré en el Señor, me regocijaré en el Dios de mi salvación.",
+    "mensaje": "Gracias, Dios, por Tu bondad"
+  },
+  {
+    "referencia": "Salmo 30:5",
+    "texto": "Porque su ira es solo por un momento, pero su favor es por toda una vida. El llanto puede durar toda la noche, pero a la mañana vendrá el grito de alegría.",
+    "mensaje": "El gozo de Dios te sostiene"
+  },
+  {
+    "referencia": "Salmo 30:11",
+    "texto": "Has cambiado mi lamento en baile; desataste mi cilicio y me ceñiste de alegría.",
+    "mensaje": "Alaba en medio de la tormenta"
+  },
+  {
+    "referencia": "Efesios 5:19-20",
+    "texto": "Hablando entre ustedes con salmos, himnos y canciones espirituales, cantando y alabando al Señor en sus corazones; dando siempre gracias por todo, en el nombre de nuestro Señor Jesucristo, a Dios, el Padre.",
+    "mensaje": "Agradece cada bendición"
+  },
+  {
+    "referencia": "Salmo 9:1",
+    "texto": "Daré gracias al Señor con todo mi corazón; contaré todas Tus maravillas.",
+    "mensaje": "Dios te llena de alegría"
+  },
+  {
+    "referencia": "Salmo 63:4",
+    "texto": "Así te bendeciré mientras viva; en Tu nombre alzaré mis manos.",
+    "mensaje": "Canta con gratitud hoy"
+  },
+  {
+    "referencia": "Salmo 147:1",
+    "texto": "¡Aleluya! Porque bueno es cantar alabanzas a nuestro Dios; porque es agradable y la alabanza es apropiada.",
+    "mensaje": "Su gozo es tu refugio"
+  },
+  {
+    "referencia": "Salmo 40:3",
+    "texto": "Puso en mi boca un cántico nuevo, un canto de alabanza a nuestro Dios; muchos verán esto y temerán, y confiarán en el Señor.",
+    "mensaje": "Da gracias, siempre hay motivo"
+  },
+  {
+    "referencia": "Hebreos 13:15",
+    "texto": "Por tanto, ofrezcamos continuamente mediante Él, un sacrificio de alabanza a Dios, es decir, el fruto de labios que confiesan Su nombre.",
+    "mensaje": "Alaba a Dios con todo tu ser"
+  },
+  {
+    "referencia": "Salmo 126:3",
+    "texto": "Grandes cosas ha hecho el Señor con nosotros; estamos alegres.",
+    "mensaje": "El gozo del Señor nunca falta"
+  },
+  {
+    "referencia": "Romanos 12:12",
+    "texto": "Gozándose en la esperanza, perseverando en la angustia, dedicados a la oración.",
+    "mensaje": "Gracias por Su fidelidad diaria"
+  },
+  {
+    "referencia": "Salmo 145:3",
+    "texto": "Grande es el Señor, y digno de ser alabado en gran manera; Su grandeza es inescrutable.",
+    "mensaje": "Alégrate en el Señor siempre"
+  },
+  {
+    "referencia": "Salmo 33:1",
+    "texto": "Canten de júbilo en el Señor, oh justos; apropiada es la alabanza para los rectos.",
+    "mensaje": "Su bondad merece alabanza"
+  },
+  {
+    "referencia": "Salmo 71:8",
+    "texto": "Mi boca está llena de Tu alabanza y de Tu gloria todo el día.",
+    "mensaje": "Da gracias en cada estación"
+  },
+  {
+    "referencia": "Salmo 107:1",
+    "texto": "Den gracias al Señor, porque Él es bueno; porque para siempre es Su misericordia.",
+    "mensaje": "El gozo verdadero está en Él"
+  },
+  {
+    "referencia": "Salmo 113:3",
+    "texto": "Desde el nacimiento del sol hasta su ocaso, alabado sea el nombre del Señor.",
+    "mensaje": "Alaba, Dios ya venció"
+  },
+  {
+    "referencia": "Isaías 61:10",
+    "texto": "En gran manera me gozaré en el Señor, mi alma se regocijará en mi Dios; porque Él me ha vestido de ropas de salvación.",
+    "mensaje": "Gracias por Su amor constante"
+  },
+  {
+    "referencia": "Salmo 67:3",
+    "texto": "Te alaben los pueblos, oh Dios; todos los pueblos Te alaben.",
+    "mensaje": "Canta Su fidelidad hoy"
+  },
+  {
+    "referencia": "Salmo 92:1",
+    "texto": "Bueno es dar gracias al Señor, y cantar alabanzas a Tu nombre, oh Altísimo.",
+    "mensaje": "El gozo de Dios es tu fortaleza"
+  },
+  {
+    "referencia": "Salmo 104:33",
+    "texto": "Cantaré al Señor mientras viva; cantaré alabanzas a mi Dios mientras yo exista.",
+    "mensaje": "Alaba, aún en la espera"
+  },
+  {
+    "referencia": "Jeremías 17:14",
+    "texto": "Sáname, oh Señor, y seré sanado; sálvame y seré salvado, porque Tú eres mi alabanza.",
+    "mensaje": "Dios sana tus heridas"
+  },
+  {
+    "referencia": "Isaías 53:5",
+    "texto": "Pero Él fue herido por nuestras transgresiones, molido por nuestras iniquidades. El castigo, por nuestra paz, cayó sobre Él, y por Sus heridas hemos sido sanados.",
+    "mensaje": "Su consuelo llega en el dolor"
+  },
+  {
+    "referencia": "Salmo 147:3",
+    "texto": "Sana a los quebrantados de corazón, y venda sus heridas.",
+    "mensaje": "Dios restaura lo perdido"
+  },
+  {
+    "referencia": "2 Corintios 1:3-4",
+    "texto": "Bendito sea el Dios y Padre de nuestro Señor Jesucristo, Padre de misericordias y Dios de toda consolación, el cual nos consuela en todas nuestras tribulaciones.",
+    "mensaje": "Eres sanado por Sus llagas"
+  },
+  {
+    "referencia": "Salmo 34:18",
+    "texto": "Cercano está el Señor a los quebrantados de corazón, y salva a los contritos de espíritu.",
+    "mensaje": "Su presencia consuela tu alma"
+  },
+  {
+    "referencia": "Mateo 11:28",
+    "texto": "Vengan a Mí, todos los que están cansados y cargados, y Yo los haré descansar.",
+    "mensaje": "Dios cierra tus heridas"
+  },
+  {
+    "referencia": "Éxodo 15:26",
+    "texto": "«Yo, el Señor, soy tu sanador».",
+    "mensaje": "No estás solo en el dolor"
+  },
+  {
+    "referencia": "Salmo 103:2-3",
+    "texto": "Bendice, alma mía, al Señor, y no olvides ninguno de Sus beneficios. Él es quien perdona todas tus iniquidades, el que sana todas tus enfermedades.",
+    "mensaje": "Su amor restaura tu vida"
+  },
+  {
+    "referencia": "Salmo 41:3",
+    "texto": "El Señor lo sostendrá en su lecho de enfermo; en su enfermedad, Tú restaurarás su salud.",
+    "mensaje": "Dios sana lo que otros no pueden"
+  },
+  {
+    "referencia": "Santiago 5:14-15",
+    "texto": "¿Está alguien entre ustedes enfermo? Que llame a los ancianos de la iglesia y que oren por él\\... y la oración de fe restaurará al enfermo.",
+    "mensaje": "Su consuelo es tu paz"
+  },
+  {
+    "referencia": "1 Pedro 2:24",
+    "texto": "Él mismo llevó nuestros pecados en Su cuerpo sobre la cruz, para que moramos al pecado y vivamos a la justicia; porque por Sus heridas fueron ustedes sanados.",
+    "mensaje": "Dios renueva lo que se rompió"
+  },
+  {
+    "referencia": "Salmo 30:2",
+    "texto": "Oh Señor, Dios mío, a Ti pedí auxilio y me sanaste.",
+    "mensaje": "Eres restaurado en Su gracia"
+  },
+  {
+    "referencia": "Mateo 8:17",
+    "texto": "Para que se cumpliera lo que fue dicho por medio del profeta Isaías cuando dijo: «Él mismo tomó nuestras enfermedades y llevó nuestras dolencias».",
+    "mensaje": "Su ternura sana tu corazón"
+  },
+  {
+    "referencia": "Jeremías 30:17",
+    "texto": "«Porque Yo te devolveré la salud, y te sanaré de tus heridas», declara del Señor.",
+    "mensaje": "Dios convierte llanto en gozo"
+  },
+  {
+    "referencia": "Salmo 23:3",
+    "texto": "El restaura mi alma; me guía por senderos de justicia por amor de Su nombre.",
+    "mensaje": "Su mano sana cada herida"
+  },
+  {
+    "referencia": "Isaías 41:13",
+    "texto": "Porque Yo soy el Señor tu Dios, que sostiene tu diestra, que te dice: «No temas, Yo te ayudaré».",
+    "mensaje": "Dios repara lo quebrantado"
+  },
+  {
+    "referencia": "Salmo 55:22",
+    "texto": "Echa sobre el Señor tu carga, y Él te sustentará; nunca permitirá que el justo sea sacudido.",
+    "mensaje": "Eres consolado en tu tristeza"
+  },
+  {
+    "referencia": "Apocalipsis 21:4",
+    "texto": "Él enjugará toda lágrima de sus ojos; y ya no habrá muerte, ni habrá más lamento, ni clamor, ni dolor, porque las primeras cosas han pasado.",
+    "mensaje": "Su gracia sana tu alma"
+  },
+  {
+    "referencia": "Mateo 5:4",
+    "texto": "Bienaventurados los que lloran, pues ellos serán consolados.",
+    "mensaje": "Dios restaura tus fuerzas"
+  },
+  {
+    "referencia": "Salmo 119:50",
+    "texto": "Este es mi consuelo en mi aflicción: que Tu palabra me ha vivificado.",
+    "mensaje": "Su amor cura lo que duele"
+  },
+  {
+    "referencia": "Isaías 61:1",
+    "texto": "El Espíritu del Señor Dios está sobre mí\\... me ha enviado a vendar a los quebrantados de corazón.",
+    "mensaje": "Dios te levanta de nuevo"
+  },
+  {
+    "referencia": "Joel 2:25",
+    "texto": "«Entonces les restituiré los años que comió la langosta».",
+    "mensaje": "Su consuelo nunca falta"
+  },
+  {
+    "referencia": "Salmo 126:5",
+    "texto": "Los que siembran con lágrimas, con regocijo segarán.",
+    "mensaje": "Eres sanado por Su gracia"
+  },
+  {
+    "referencia": "Proverbios 17:22",
+    "texto": "El corazón alegre es buena medicina, pero el espíritu quebrantado seca los huesos.",
+    "mensaje": "Dios devuelve lo que se perdió"
+  },
+  {
+    "referencia": "Salmo 71:20",
+    "texto": "Tú que me has hecho ver muchas angustias y aflicciones, me volverás a dar vida, y me levantarás de nuevo de las profundidades de la tierra.",
+    "mensaje": "Su presencia calma tu dolor"
+  },
+  {
+    "referencia": "Isaías 57:18",
+    "texto": "He visto sus caminos, pero lo sanaré; lo guiaré y le daré consuelo a él y a los que con él lloran.",
+    "mensaje": "Dios restaura tu esperanza"
+  },
+  {
+    "referencia": "Salmo 107:20",
+    "texto": "Envió Su palabra y los sanó, y los libró de sus ruinas.",
+    "mensaje": "Su amor sana profundamente"
+  },
+  {
+    "referencia": "Malaquías 4:2",
+    "texto": "Mas para ustedes que temen Mi nombre, se levantará el sol de justicia con la salud en sus alas.",
+    "mensaje": "Eres nuevo en Cristo"
+  },
+  {
+    "referencia": "2 Corintios 4:17",
+    "texto": "Pues esta aflicción leve y pasajera nos produce un eterno y cada vez más excelente peso de gloria.",
+    "mensaje": "Dios cambia tu lamento en danza"
+  },
+  {
+    "referencia": "Salmo 27:14",
+    "texto": "Espera al Señor; esfuérzate y aliéntese tu corazón. Sí, espera al Señor.",
+    "mensaje": "Su gracia te hace nuevo"
+  },
+  {
+    "referencia": "Juan 13:34-35",
+    "texto": "Un mandamiento nuevo les doy: que se amen los unos a los otros; que como Yo los he amado, así también se amen los unos a los otros. En esto conocerán todos que son Mis discípulos, si se tienen amor los unos a los otros.",
+    "mensaje": "Ama a otros como Dios te ama"
+  },
+  {
+    "referencia": "1 Corintios 13:4-5",
+    "texto": "El amor es paciente, es bondadoso. El amor no tiene envidia; el amor no es jactancioso, no es arrogante. No hace nada indebido, no busca lo suyo, no se irrita, no toma en cuenta el mal recibido.",
+    "mensaje": "La unidad agrada a Dios"
+  },
+  {
+    "referencia": "1 Corintios 13:7",
+    "texto": "Todo lo sufre, todo lo cree, todo lo espera, todo lo soporta.",
+    "mensaje": "Sirve a otros con amor"
+  },
+  {
+    "referencia": "Colosenses 3:12-13",
+    "texto": "Entonces, como escogidos de Dios, santos y amados, revístanse de tierna compasión, bondad, humildad, mansedumbre y paciencia; soportándose unos a otros y perdonándose unos a otros.",
+    "mensaje": "El amor verdadero es paciente"
+  },
+  {
+    "referencia": "Colosenses 3:14",
+    "texto": "Sobre todas estas cosas, pónganse amor, que es el vínculo de la unidad.",
+    "mensaje": "Dios te llama a perdonar"
+  },
+  {
+    "referencia": "Efesios 4:32",
+    "texto": "Sean más bien amables unos con otros, misericordiosos, perdonándose unos a otros, así como también Dios los perdonó a ustedes en Cristo.",
+    "mensaje": "Ama sin esperar nada a cambio"
+  },
+  {
+    "referencia": "1 Pedro 4:8",
+    "texto": "Sobre todo, sean fervientes en su amor unos por otros, porque el amor cubre multitud de pecados.",
+    "mensaje": "La unidad es más fuerte que la división"
+  },
+  {
+    "referencia": "Gálatas 6:2",
+    "texto": "Lleven los unos las cargas de los otros, y cumplan así la ley de Cristo.",
+    "mensaje": "Dios te llama a la humildad"
+  },
+  {
+    "referencia": "Proverbios 17:17",
+    "texto": "En todo tiempo ama el amigo, y es un hermano para el tiempo de angustia.",
+    "mensaje": "El amor cubre multitud de faltas"
+  },
+  {
+    "referencia": "Proverbios 27:17",
+    "texto": "El hierro con hierro se afila, y un hombre aguza el rostro de su amigo.",
+    "mensaje": "Sirve con alegría a los demás"
+  },
+  {
+    "referencia": "Hebreos 10:24-25",
+    "texto": "Consideremos cómo estimularnos unos a otros al amor y a las buenas obras, no dejando de congregarnos.",
+    "mensaje": "Dios honra el amor genuino"
+  },
+  {
+    "referencia": "Romanos 12:10",
+    "texto": "Sean afectuosos unos con otros con amor fraternal; con honra, dándose preferencia unos a otros.",
+    "mensaje": "La unidad refleja a Cristo"
+  },
+  {
+    "referencia": "Romanos 12:18",
+    "texto": "Si es posible, en cuanto de ustedes dependa, estén en paz con todos los hombres.",
+    "mensaje": "Ama al prójimo como a ti mismo"
+  },
+  {
+    "referencia": "Mateo 22:39",
+    "texto": "«Amarás a tu prójimo como a ti mismo».",
+    "mensaje": "Dios bendice a quien perdona"
+  },
+  {
+    "referencia": "1 Juan 4:7",
+    "texto": "Amados, amémonos unos a otros, porque el amor es de Dios, y todo el que ama es nacido de Dios y conoce a Dios.",
+    "mensaje": "El amor no busca lo suyo"
+  },
+  {
+    "referencia": "1 Juan 4:11",
+    "texto": "Amados, si Dios así nos amó, también nosotros debemos amarnos unos a otros.",
+    "mensaje": "Vive en paz con todos"
+  },
+  {
+    "referencia": "Efesios 4:2-3",
+    "texto": "Con toda humildad y mansedumbre, con paciencia, soportándose unos a otros en amor, esforzándose por preservar la unidad del Espíritu en el vínculo de la paz.",
+    "mensaje": "Dios te llama a la compasión"
+  },
+  {
+    "referencia": "1 Pedro 3:8",
+    "texto": "En conclusión, sean todos de un mismo sentir, compasivos, fraternales, misericordiosos, de espíritu humilde.",
+    "mensaje": "El amor construye, no destruye"
+  },
+  {
+    "referencia": "Proverbios 18:24",
+    "texto": "El hombre que tiene amigos ha de mostrarse amigo; y amigo hay más unido que un hermano.",
+    "mensaje": "Sirve con un corazón sincero"
+  },
+  {
+    "referencia": "Eclesiastés 4:9-10",
+    "texto": "Más valen dos que uno, porque tienen buena recompensa por su trabajo. Porque si caen, el uno levantará a su compañero.",
+    "mensaje": "La unidad trae bendición"
+  },
+  {
+    "referencia": "Eclesiastés 4:12",
+    "texto": "Un cordón de tres dobleces no se rompe fácilmente.",
+    "mensaje": "Ama con la paciencia de Dios"
+  },
+  {
+    "referencia": "Santiago 5:16",
+    "texto": "Por tanto, confiesen sus pecados unos a otros, y oren unos por otros para que sean sanados.",
+    "mensaje": "Dios te llama a la bondad"
+  },
+  {
+    "referencia": "Romanos 15:5-6",
+    "texto": "Y que el Dios de la paciencia y del consuelo les conceda tener el mismo sentir unos para con otros conforme a Cristo Jesús.",
+    "mensaje": "El amor verdadero permanece"
+  },
+  {
+    "referencia": "Gálatas 5:13",
+    "texto": "Sirvanse unos a otros por medio del amor.",
+    "mensaje": "Vive en armonía con otros"
+  },
+  {
+    "referencia": "1 Tesalonicenses 5:11",
+    "texto": "Por tanto, confórtense los unos a los otros, y edifíquense el uno al otro, tal como lo están haciendo.",
+    "mensaje": "Dios honra el corazón servicial"
+  },
+  {
+    "referencia": "Proverbios 15:17",
+    "texto": "Mejor es un plato de legumbres donde hay amor, que buey engordado con odio.",
+    "mensaje": "El amor todo lo soporta"
+  },
+  {
+    "referencia": "Filipenses 2:3",
+    "texto": "No hagan nada por egoísmo o por vanagloria, sino que con actitud humilde cada uno de ustedes considere al otro como más importante que a sí mismo.",
+    "mensaje": "Sirve como Cristo sirvió"
+  },
+  {
+    "referencia": "Filipenses 2:4",
+    "texto": "No buscando cada uno sus propios intereses, sino más bien los intereses de los demás.",
+    "mensaje": "La unidad es un tesoro"
+  },
+  {
+    "referencia": "Mateo 7:12",
+    "texto": "«Por eso, todo lo que quieran que los hombres hagan con ustedes, así también hagan ustedes con ellos».",
+    "mensaje": "Ama profundamente, como Él ama"
+  },
+  {
+    "referencia": "1 Juan 3:18",
+    "texto": "Hijos míos, no amemos de palabra ni de lengua, sino de hecho y en verdad.",
+    "mensaje": "Dios te llama a amar sin límites"
+  },
+  {
+    "referencia": "Salmo 1:1-2",
+    "texto": "¡Cuán bienaventurado es el hombre que no anda en el consejo de los impíos\\... sino que en la ley del Señor está su deleite, y en Su ley medita de día y de noche!",
+    "mensaje": "Dios te transforma cada día"
+  },
+  {
+    "referencia": "2 Pedro 3:18",
+    "texto": "Crezcan en la gracia y el conocimiento de nuestro Señor y Salvador Jesucristo.",
+    "mensaje": "Camina en obediencia y confianza"
+  },
+  {
+    "referencia": "Romanos 12:2",
+    "texto": "Y no se adapten a este mundo, sino transfórmense mediante la renovación de su mente, para que verifiquen cuál es la voluntad de Dios: lo que es bueno, aceptable y perfecto.",
+    "mensaje": "Eres una nueva creación"
+  },
+  {
+    "referencia": "Gálatas 5:22-23",
+    "texto": "Pero el fruto del Espíritu es amor, gozo, paz, paciencia, benignidad, bondad, fidelidad, mansedumbre, dominio propio.",
+    "mensaje": "Dios te moldea con paciencia"
+  },
+  {
+    "referencia": "Mateo 5:16",
+    "texto": "Hágase la luz de ustedes delante de los hombres, para que vean sus buenas obras y glorifiquen a su Padre que está en los cielos.",
+    "mensaje": "Crece en gracia y conocimiento"
+  },
+  {
+    "referencia": "Juan 15:5",
+    "texto": "«Yo soy la vid, ustedes los sarmientos; el que permanece en Mí y Yo en él, ese da mucho fruto, porque separados de Mí nada pueden hacer».",
+    "mensaje": "Su Palabra te transforma"
+  },
+  {
+    "referencia": "Colosenses 2:6-7",
+    "texto": "Por tanto, de la manera que recibieron a Cristo Jesús el Señor, así anden en Él; firmemente arraigados y edificados en Él y confirmados en su fe.",
+    "mensaje": "Dios te llama a la santidad"
+  },
+  {
+    "referencia": "1 Pedro 1:15-16",
+    "texto": "Sino que así como Aquel que los llamó es santo, así también sean ustedes santos en toda su manera de vivir; porque escrito está: «Sean santos, porque Yo soy santo».",
+    "mensaje": "Obedece, y verás Su bendición"
+  },
+  {
+    "referencia": "Santiago 1:22",
+    "texto": "Sean hacedores de la palabra y no solamente oyentes que se engañan a sí mismos.",
+    "mensaje": "Eres hechura de Dios"
+  },
+  {
+    "referencia": "Filipenses 1:6",
+    "texto": "Estando convencido precisamente de esto: que el que comenzó en ustedes la buena obra, la perfeccionará hasta el día de Cristo Jesús.",
+    "mensaje": "Su Espíritu te renueva"
+  },
+  {
+    "referencia": "2 Timoteo 3:16-17",
+    "texto": "Toda la Escritura es inspirada por Dios y útil para enseñar, para reprender, para corregir, para instruir en justicia, a fin de que el hombre de Dios sea perfecto, equipado para toda buena obra.",
+    "mensaje": "Crece cada día en Él"
+  },
+  {
+    "referencia": "Salmo 119:9",
+    "texto": "¿Cómo guardará el joven puro su camino? Con guardar Tu palabra.",
+    "mensaje": "Dios perfecciona lo que empezó en ti"
+  },
+  {
+    "referencia": "Josué 1:8",
+    "texto": "Este libro de la ley no se apartará de tu boca, sino que meditarás en él de día y de noche, para que cuides de hacer todo lo que en él está escrito.",
+    "mensaje": "Vive conforme a Su voluntad"
+  },
+  {
+    "referencia": "Hebreos 12:1-2",
+    "texto": "Despojémonos también de todo peso y del pecado que tan fácilmente nos enreda, y corramos con paciencia la carrera que tenemos por delante, puestos los ojos en Jesús.",
+    "mensaje": "Su gracia te va formando"
+  },
+  {
+    "referencia": "Mateo 6:33",
+    "texto": "Pero busquen primero Su reino y Su justicia, y todas estas cosas les serán añadidas.",
+    "mensaje": "Eres transformado a Su imagen"
+  },
+  {
+    "referencia": "Juan 14:15",
+    "texto": "«Si ustedes Me aman, guardarán Mis mandamientos».",
+    "mensaje": "Dios te guía a la madurez"
+  },
+  {
+    "referencia": "1 Juan 2:6",
+    "texto": "El que dice que permanece en Él, debe andar como Él anduvo.",
+    "mensaje": "Obedecer es el camino a la bendición"
+  },
+  {
+    "referencia": "Salmo 51:10",
+    "texto": "Crea en mí, oh Dios, un corazón limpio, y renueva un espíritu recto dentro de mí.",
+    "mensaje": "Crece en fe y carácter"
+  },
+  {
+    "referencia": "Proverbios 4:23",
+    "texto": "Con toda diligencia guarda tu corazón, porque de él brotan los manantiales de la vida.",
+    "mensaje": "Dios te prepara para más"
+  },
+  {
+    "referencia": "Efesios 4:22-24",
+    "texto": "Que en cuanto a la anterior manera de vivir, ustedes se despojen del viejo hombre\\... y se revistan del nuevo hombre, creado en la justicia y santidad de la verdad.",
+    "mensaje": "Su Palabra renueva tu mente"
+  },
+  {
+    "referencia": "1 Tesalonicenses 4:3",
+    "texto": "Porque esta es la voluntad de Dios: su santificación.",
+    "mensaje": "Eres santo, apartado para Él"
+  },
+  {
+    "referencia": "Romanos 6:22",
+    "texto": "Pero ahora, habiendo sido libertados del pecado y hechos siervos de Dios, tienen por su fruto la santificación, y como resultado la vida eterna.",
+    "mensaje": "Dios continúa la buena obra en ti"
+  },
+  {
+    "referencia": "2 Corintios 3:18",
+    "texto": "Pero todos nosotros, con el rostro descubierto, mirando como en un espejo la gloria del Señor, somos transformados de gloria en gloria en la misma imagen.",
+    "mensaje": "Camina en la luz de Su verdad"
+  },
+  {
+    "referencia": "Santiago 4:8",
+    "texto": "Acérquense a Dios, y Él se acercará a ustedes.",
+    "mensaje": "Crece en amor y humildad"
+  },
+  {
+    "referencia": "Salmo 139:23-24",
+    "texto": "Escudríñame, oh Dios, y conoce mi corazón; pruébame y conoce mis inquietudes. Y ve si hay en mí camino de perversidad, y guíame por el camino eterno.",
+    "mensaje": "Dios te forma paso a paso"
+  },
+  {
+    "referencia": "1 Corintios 10:31",
+    "texto": "Entonces, ya sea que coman, que beban, o que hagan cualquier otra cosa, háganlo todo para la gloria de Dios.",
+    "mensaje": "Su Espíritu obra en ti hoy"
+  },
+  {
+    "referencia": "Colosenses 3:1-2",
+    "texto": "Si pues han resucitado con Cristo, busquen las cosas de arriba, donde está Cristo sentado a la diestra de Dios. Pongan la mira en las cosas de arriba, no en las de la tierra.",
+    "mensaje": "Eres llamado a una vida nueva"
+  },
+  {
+    "referencia": "Efesios 2:10",
+    "texto": "Porque somos hechura Suya, creados en Cristo Jesús para hacer buenas obras, las cuales Dios preparó de antemano para que anduviéramos en ellas.",
+    "mensaje": "Dios te lleva de gloria en gloria"
+  },
+  {
+    "referencia": "2 Corintios 7:1",
+    "texto": "Limpémonos de toda inmundicia de la carne y del espíritu, perfeccionando la santidad en el temor de Dios.",
+    "mensaje": "Obedece con un corazón alegre"
+  },
+  {
+    "referencia": "Lucas 9:23",
+    "texto": "«Si alguien quiere venir en pos de Mí, niéguese a sí mismo, tome su cruz cada día y sígame».",
+    "mensaje": "Su gracia te perfecciona cada día"
+  },
+  {
+    "referencia": "Filipenses 4:19",
+    "texto": "Y mi Dios proveerá a todas sus necesidades conforme a Sus riquezas en gloria en Cristo Jesús.",
+    "mensaje": "Dios suple todas tus necesidades"
+  },
+  {
+    "referencia": "Salmo 37:25",
+    "texto": "Joven fui y ya soy viejo, y no he visto al justo desamparado, ni a su descendencia mendigando pan.",
+    "mensaje": "Trabaja como para el Señor"
+  },
+  {
+    "referencia": "Proverbios 3:9-10",
+    "texto": "Honra al Señor con tus bienes y con las primicias de todos tus frutos; entonces tus graneros se llenarán con abundancia.",
+    "mensaje": "Da con generosidad, Dios multiplica"
+  },
+  {
+    "referencia": "2 Corintios 9:7",
+    "texto": "Que cada uno dé como propuso en su corazón, no de mala gana ni por obligación, porque Dios ama al dador alegre.",
+    "mensaje": "Dios provee en el tiempo justo"
+  },
+  {
+    "referencia": "2 Corintios 9:8",
+    "texto": "Y Dios puede hacer que abunde en ustedes toda gracia, a fin de que teniendo siempre todo lo suficiente en todas las cosas, abunden para toda buena obra.",
+    "mensaje": "Confía, nada te faltará"
+  },
+  {
+    "referencia": "Mateo 6:26",
+    "texto": "Miren las aves del cielo, que no siembran, ni siegan, ni recogen en graneros, y sin embargo, su Padre celestial las alimenta. ¿No son ustedes de mucho más valor que ellas?",
+    "mensaje": "Tu trabajo tiene propósito en Dios"
+  },
+  {
+    "referencia": "Lucas 6:38",
+    "texto": "Den, y les será dado; medida buena, apretada, remecida y rebosante vaciarán en su regazo.",
+    "mensaje": "Dios bendice al dador alegre"
+  },
+  {
+    "referencia": "Proverbios 11:25",
+    "texto": "El alma generosa será prosperada, y el que riega, él mismo también será regado.",
+    "mensaje": "Nunca te faltará lo necesario"
+  },
+  {
+    "referencia": "Colosenses 3:23-24",
+    "texto": "Todo lo que hagan, háganlo de corazón, como para el Señor y no para los hombres, sabiendo que del Señor recibirán la recompensa de la herencia. Es a Cristo el Señor a quien sirven.",
+    "mensaje": "Trabaja con excelencia hoy"
+  },
+  {
+    "referencia": "Proverbios 16:3",
+    "texto": "Encomienda al Señor tus obras, y tus pensamientos serán afirmados.",
+    "mensaje": "Dios abastece según Sus riquezas"
+  },
+  {
+    "referencia": "Salmo 34:10",
+    "texto": "Los leoncillos pasan necesidad y sufren hambre, pero los que buscan al Señor no tendrán falta de ningún bien.",
+    "mensaje": "Da con fe, Dios ve tu corazón"
+  },
+  {
+    "referencia": "Deuteronomio 8:18",
+    "texto": "Sino acuérdate del Señor tu Dios, porque Él es el que te da poder para hacer riquezas.",
+    "mensaje": "Tu provisión viene de Dios"
+  },
+  {
+    "referencia": "Proverbios 10:22",
+    "texto": "La bendición del Señor es la que enriquece, y Él no añade tristeza con ella.",
+    "mensaje": "Sé fiel en lo poco, Dios te dará más"
+  },
+  {
+    "referencia": "Hebreos 13:5",
+    "texto": "Sean sus costumbres libres del amor al dinero, contentos con lo que tienen. Porque Él mismo ha dicho: «Nunca te dejaré ni te desampararé».",
+    "mensaje": "Dios honra tu esfuerzo diario"
+  },
+  {
+    "referencia": "1 Timoteo 6:6-7",
+    "texto": "Pero la piedad, combinada con el contento, es una gran ganancia. Porque nada hemos traído al mundo, así que nada podemos sacar de él.",
+    "mensaje": "La generosidad abre puertas"
+  },
+  {
+    "referencia": "Proverbios 22:9",
+    "texto": "El de ojo generoso será bendito, porque da de su pan al pobre.",
+    "mensaje": "Dios cuida cada detalle de tu vida"
+  },
+  {
+    "referencia": "Hechos 20:35",
+    "texto": "«Más bienaventurado es dar que recibir».",
+    "mensaje": "Trabaja con propósito y gozo"
+  },
+  {
+    "referencia": "Salmo 112:5",
+    "texto": "Bien le va al hombre que se compadece y presta, que arregla sus asuntos con juicio.",
+    "mensaje": "Dios multiplica lo que das"
+  },
+  {
+    "referencia": "Proverbios 28:27",
+    "texto": "El que da al pobre no tendrá necesidad, pero el que cierra sus ojos tendrá muchas maldiciones.",
+    "mensaje": "Nada le falta a quien confía en Dios"
+  },
+  {
+    "referencia": "Mateo 6:19-20",
+    "texto": "No acumulen para sí tesoros en la tierra\\... sino acumulen tesoros en el cielo.",
+    "mensaje": "Tu esfuerzo no es en vano"
+  },
+  {
+    "referencia": "Salmo 84:11",
+    "texto": "Porque sol y escudo es el Señor Dios; gracia y gloria da el Señor; nada bueno niega a los que andan en integridad.",
+    "mensaje": "Dios provee más de lo que imaginas"
+  },
+  {
+    "referencia": "Gálatas 6:9",
+    "texto": "No nos cansemos de hacer el bien, pues a su tiempo segaremos si no nos damos por vencidos.",
+    "mensaje": "Da con un corazón agradecido"
+  },
+  {
+    "referencia": "Proverbios 14:23",
+    "texto": "En todo trabajo hay fruto, pero la mera palabrería solo conduce a la penuria.",
+    "mensaje": "Dios respalda tu trabajo"
+  },
+  {
+    "referencia": "Salmo 127:1",
+    "texto": "Si el Señor no edifica la casa, en vano trabajan los que la edifican.",
+    "mensaje": "Confía, Dios ya proveyó"
+  },
+  {
+    "referencia": "1 Timoteo 6:17-18",
+    "texto": "A los ricos de este siglo manda\\... que hagan el bien, que sean ricos en buenas obras, generosos y prontos a compartir.",
+    "mensaje": "La generosidad refleja el corazón de Dios"
+  },
+  {
+    "referencia": "Salmo 23:5",
+    "texto": "Tú preparas mesa delante de mí en presencia de mis enemigos; has ungido mi cabeza con aceite; mi copa está rebosando.",
+    "mensaje": "Dios bendice tu labor"
+  },
+  {
+    "referencia": "Proverbios 19:17",
+    "texto": "El que se compadece del pobre presta al Señor, y Él le pagará su buena obra.",
+    "mensaje": "Siembra con fe, cosecharás con gozo"
+  },
+  {
+    "referencia": "Salmo 37:3",
+    "texto": "Confía en el Señor, y haz el bien; habita en la tierra, y cultiva la fidelidad.",
+    "mensaje": "Dios es tu fuente segura"
+  },
+  {
+    "referencia": "Mateo 6:31-32",
+    "texto": "Por tanto, no se afanen, diciendo: «¿Qué comeremos?»\\... porque su Padre celestial sabe que ustedes tienen necesidad de todas estas cosas.",
+    "mensaje": "Trabaja para Su gloria"
+  },
+  {
+    "referencia": "2 Corintios 8:9",
+    "texto": "Porque conocen la gracia de nuestro Señor Jesucristo, que siendo rico, por amor a ustedes se hizo pobre, para que ustedes con Su pobreza fueran enriquecidos.",
+    "mensaje": "Dios nunca deja de proveer"
+  },
+  {
+    "referencia": "1 Juan 1:9",
+    "texto": "Si confesamos nuestros pecados, Él es fiel y justo para perdonar nuestros pecados y limpiarnos de toda maldad.",
+    "mensaje": "En Cristo eres nueva criatura"
+  },
+  {
+    "referencia": "Romanos 10:9",
+    "texto": "Que si confiesas con tu boca a Jesús por Señor, y crees en tu corazón que Dios Lo resucitó de entre los muertos, serás salvo.",
+    "mensaje": "Tus pecados son perdonados"
+  },
+  {
+    "referencia": "Isaías 1:18",
+    "texto": "«Vengan nos, y razonemos», dice el Señor: «Aunque sus pecados sean como la grana, como la nieve serán emblanquecidos».",
+    "mensaje": "La salvación es un regalo de Dios"
+  },
+  {
+    "referencia": "2 Corintios 5:17",
+    "texto": "De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí, son hechas nuevas.",
+    "mensaje": "Dios te ofrece vida eterna"
+  },
+  {
+    "referencia": "Efesios 1:13",
+    "texto": "En Él también ustedes\\... habiendo creído, fueron sellados con el Espíritu Santo de la promesa.",
+    "mensaje": "Eres libre en Cristo"
+  },
+  {
+    "referencia": "Juan 5:24",
+    "texto": "«En verdad les digo: el que oye Mi palabra y cree al que Me envió, tiene vida eterna, y no viene a condenación, sino que ha pasado de muerte a vida».",
+    "mensaje": "Su sangre te limpia por completo"
+  },
+  {
+    "referencia": "Salmo 103:12",
+    "texto": "Cuán lejos está el oriente del occidente, así alejó de nosotros nuestras transgresiones.",
+    "mensaje": "Dios perdona y olvida tu pasado"
+  },
+  {
+    "referencia": "Romanos 6:23",
+    "texto": "Porque la paga del pecado es muerte, pero la dádiva de Dios es vida eterna en Cristo Jesús Señor nuestro.",
+    "mensaje": "La cruz te da vida nueva"
+  },
+  {
+    "referencia": "Hechos 4:12",
+    "texto": "En ningún otro hay salvación, porque no hay otro nombre bajo el cielo dado a los hombres, en el cual podamos ser salvos.",
+    "mensaje": "Eres salvo por gracia, no por obras"
+  },
+  {
+    "referencia": "Juan 10:28",
+    "texto": "«Yo les doy vida eterna y jamás perecerán, ni nadie las arrebatará de Mi mano».",
+    "mensaje": "Dios te recibe con brazos abiertos"
+  },
+  {
+    "referencia": "Hebreos 7:25",
+    "texto": "Por lo cual Él también puede salvar para siempre a los que por medio de Él se acercan a Dios, puesto que vive perpetuamente para interceder por ellos.",
+    "mensaje": "Tu eternidad está segura en Él"
+  },
+  {
+    "referencia": "Colosenses 1:13-14",
+    "texto": "Porque Él nos libró del dominio de las tinieblas y nos trasladó al reino de Su Hijo amado, en quien tenemos redención: el perdón de los pecados.",
+    "mensaje": "Eres perdonado, camina en libertad"
+  },
+  {
+    "referencia": "Isaías 43:25",
+    "texto": "«Yo, Yo soy el que borro tus transgresiones por amor a Mí mismo, y no me acordaré de tus pecados».",
+    "mensaje": "Dios borra tu culpa"
+  },
+  {
+    "referencia": "Romanos 8:1",
+    "texto": "Por tanto, ahora no hay condenación para los que están en Cristo Jesús.",
+    "mensaje": "La salvación transforma tu destino"
+  },
+  {
+    "referencia": "Juan 11:25-26",
+    "texto": "Jesús le dijo: «Yo soy la resurrección y la vida; el que cree en Mí, aunque muera, vivirá, y todo el que vive y cree en Mí, no morirá jamás».",
+    "mensaje": "Eres Su hijo por la fe"
+  },
+  {
+    "referencia": "Salmo 32:5",
+    "texto": "Te manifesté mi pecado, y no encubrí mi iniquidad. Dije: «Confesaré mis transgresiones al Señor»; y Tú perdonaste la culpa de mi pecado.",
+    "mensaje": "Dios te da una nueva oportunidad"
+  },
+  {
+    "referencia": "Juan 14:6",
+    "texto": "Jesús le dijo: «Yo soy el camino, la verdad y la vida; nadie viene al Padre sino por Mí».",
+    "mensaje": "En Cristo no hay condenación"
+  },
+  {
+    "referencia": "Hechos 16:31",
+    "texto": "Ellos dijeron: «Cree en el Señor Jesús, y serás salvo, tú y tu casa».",
+    "mensaje": "Tu pasado no define tu futuro"
+  },
+  {
+    "referencia": "Miqueas 7:19",
+    "texto": "Volverá a tener compasión de nosotros, hollará nuestras iniquidades. Sí, arrojarás a las profundidades del mar todos sus pecados.",
+    "mensaje": "Eres justificado por la fe"
+  },
+  {
+    "referencia": "Tito 2:11",
+    "texto": "Porque la gracia de Dios se ha manifestado, trayendo salvación a todos los hombres.",
+    "mensaje": "Dios te da vida en abundancia"
+  },
+  {
+    "referencia": "Juan 1:12",
+    "texto": "Pero a todos los que Lo recibieron, a los que creen en Su nombre, les dio potestad de llegar a ser hijos de Dios.",
+    "mensaje": "La gracia te alcanza siempre"
+  },
+  {
+    "referencia": "1 Pedro 1:8-9",
+    "texto": "A quien sin haberlo visto, lo aman\\... obteniendo como fin de su fe la salvación de sus almas.",
+    "mensaje": "Eres libre del pecado"
+  },
+  {
+    "referencia": "Romanos 5:1",
+    "texto": "Por tanto, habiendo sido justificados por la fe, tenemos paz para con Dios por medio de nuestro Señor Jesucristo.",
+    "mensaje": "Dios cambió tu historia para siempre"
+  },
+  {
+    "referencia": "1 Juan 5:11-12",
+    "texto": "Y el testimonio es este: que Dios nos ha dado vida eterna, y esta vida está en Su Hijo. El que tiene al Hijo tiene la vida; el que no tiene al Hijo de Dios no tiene la vida.",
+    "mensaje": "Tu nombre está escrito en el cielo"
+  },
+  {
+    "referencia": "Salmo 130:3-4",
+    "texto": "Señor, si Tú tuvieras en cuenta las iniquidades, ¿quién, oh Señor, podría permanecer en pie? Pero en Ti hay perdón, para que seas temido.",
+    "mensaje": "Eres salvo para siempre en Él"
+  },
+  {
+    "referencia": "Hebreos 9:28",
+    "texto": "Así también Cristo, habiendo sido ofrecido una sola vez para llevar los pecados de muchos, aparecerá por segunda vez, sin relación con el pecado, para salvación de los que ansiosamente Lo esperan.",
+    "mensaje": "Dios te llama Su hijo amado"
+  },
+  {
+    "referencia": "Apocalipsis 3:20",
+    "texto": "«He aquí, Yo estoy a la puerta y llamo; si alguien oye Mi voz y abre la puerta, entraré a él, y cenaré con él y él Conmigo».",
+    "mensaje": "La vida eterna comienza hoy"
+  },
+  {
+    "referencia": "Lucas 19:10",
+    "texto": "«Porque el Hijo del Hombre ha venido a buscar y a salvar lo que se había perdido».",
+    "mensaje": "Eres restaurado por Su sangre"
+  },
+  {
+    "referencia": "Gálatas 3:26",
+    "texto": "Pues todos ustedes son hijos de Dios mediante la fe en Cristo Jesús.",
+    "mensaje": "Dios te dio lo que no merecías"
+  },
+  {
+    "referencia": "Juan 6:40",
+    "texto": "«Porque esta es la voluntad de Mi Padre: que todo aquel que ve al Hijo y cree en Él, tenga vida eterna; y Yo mismo lo resucitaré en el día final».",
+    "mensaje": "Eres libre, camina en esa verdad"
+  },
+  {
+    "referencia": "1 Corintios 15:57",
+    "texto": "Pero a Dios gracias, que nos da la victoria por medio de nuestro Señor Jesucristo.",
+    "mensaje": "Dios ya te dio la victoria"
+  },
+  {
+    "referencia": "Romanos 8:31",
+    "texto": "¿Qué diremos, entonces, a esto? Si Dios está por nosotros, ¿quién estará contra nosotros?",
+    "mensaje": "Sus promesas nunca fallan"
+  },
+  {
+    "referencia": "Romanos 8:37",
+    "texto": "Pero en todas estas cosas somos más que vencedores por medio de Aquel que nos amó.",
+    "mensaje": "Eres más que vencedor en Cristo"
+  },
+  {
+    "referencia": "1 Juan 5:4",
+    "texto": "Porque todo lo que es nacido de Dios vence al mundo; y esta es la victoria que ha vencido al mundo: nuestra fe.",
+    "mensaje": "Dios cumple cada palabra dada"
+  },
+  {
+    "referencia": "2 Corintios 2:14",
+    "texto": "Pero gracias a Dios, que en Cristo siempre nos lleva en triunfo, y manifiesta por medio de nosotros en todo lugar la fragancia de Su conocimiento.",
+    "mensaje": "La victoria es tuya en Él"
+  },
+  {
+    "referencia": "Salmo 44:7",
+    "texto": "Pues Tú nos has librado de nuestros adversarios, y has avergonzado a los que nos aborrecen.",
+    "mensaje": "Su fidelidad es de generación en generación"
+  },
+  {
+    "referencia": "Deuteronomio 20:4",
+    "texto": "Porque el Señor su Dios es el que va con ustedes, para pelear por ustedes contra sus enemigos, para darles la victoria.",
+    "mensaje": "Nada puede contra Dios contigo"
+  },
+  {
+    "referencia": "2 Tesalonicenses 3:3",
+    "texto": "Pero el Señor es fiel, y Él los fortalecerá y los protegerá del maligno.",
+    "mensaje": "Dios pelea y tú vences"
+  },
+  {
+    "referencia": "1 Corintios 10:13",
+    "texto": "No les ha sobrevenido ninguna tentación que no sea común a los hombres; pero fiel es Dios, que no permitirá que ustedes sean tentados más allá de lo que pueden soportar.",
+    "mensaje": "Sus promesas son sí y amén"
+  },
+  {
+    "referencia": "Salmo 33:4",
+    "texto": "Porque la palabra del Señor es recta, y toda Su obra es hecha con fidelidad.",
+    "mensaje": "Eres vencedor por Su poder"
+  },
+  {
+    "referencia": "Salmo 89:1",
+    "texto": "Las misericordias del Señor cantaré perpetuamente; de generación en generación haré conocida Tu fidelidad con mi boca.",
+    "mensaje": "Dios nunca cambia Su palabra"
+  },
+  {
+    "referencia": "2 Timoteo 2:13",
+    "texto": "Si somos infieles, Él permanece fiel, pues no puede negarse a sí mismo.",
+    "mensaje": "La batalla es del Señor"
+  },
+  {
+    "referencia": "Hebreos 10:23",
+    "texto": "Mantengamos firme la profesión de nuestra esperanza sin vacilar, porque Fiel es El que prometió.",
+    "mensaje": "Confía, Dios ya venció por ti"
+  },
+  {
+    "referencia": "Salmo 37:24",
+    "texto": "Cuando caiga, no quedará derribado, porque el Señor sostiene su mano.",
+    "mensaje": "Su fidelidad te sostiene siempre"
+  },
+  {
+    "referencia": "Isaías 54:17",
+    "texto": "«Ningún arma forjada contra ti prosperará, y condenarás toda lengua que se levante contra ti en juicio».",
+    "mensaje": "Eres más que conquistador"
+  },
+  {
+    "referencia": "Salmo 18:30",
+    "texto": "En cuanto a Dios, Su camino es perfecto; probada es la palabra del Señor; Él es escudo a todos los que en Él se refugian.",
+    "mensaje": "Dios cumple lo que promete"
+  },
+  {
+    "referencia": "2 Pedro 1:4",
+    "texto": "Por medio de las cuales nos ha concedido Sus preciosas y maravillosas promesas.",
+    "mensaje": "Levántate, la victoria es tuya"
+  },
+  {
+    "referencia": "Salmo 60:12",
+    "texto": "En Dios haremos proezas, y Él hollará a nuestros enemigos.",
+    "mensaje": "Su Palabra nunca falla"
+  },
+  {
+    "referencia": "Salmo 20:7",
+    "texto": "Algunos confían en carros y otros en caballos, pero nosotros nos acordaremos del nombre del Señor nuestro Dios.",
+    "mensaje": "Dios pelea tus batallas hoy"
+  },
+  {
+    "referencia": "1 Juan 4:4",
+    "texto": "Hijos míos, ustedes son de Dios y los han vencido, porque Mayor es El que está en ustedes que el que está en el mundo.",
+    "mensaje": "Eres coronado con Su favor"
+  },
+  {
+    "referencia": "Salmo 91:4",
+    "texto": "Con Sus plumas te cubrirá, y bajo Sus alas hallarás refugio; escudo y baluarte es Su fidelidad.",
+    "mensaje": "La fidelidad de Dios es tu ancla"
+  },
+  {
+    "referencia": "Éxodo 14:14",
+    "texto": "El Señor peleará por ustedes mientras ustedes se quedan callados.",
+    "mensaje": "Dios ya escribió tu victoria"
+  },
+  {
+    "referencia": "Salmo 118:15",
+    "texto": "Voz de júbilo y de salvación hay en las tiendas de los justos; la diestra del Señor hace proezas.",
+    "mensaje": "Confía, Sus promesas son seguras"
+  },
+  {
+    "referencia": "2 Corintios 1:20",
+    "texto": "Pues tantas como sean las promesas de Dios, en Él todas son «Sí»; por eso también por medio de Él, nuestro «Amén» es para la gloria de Dios a través de nosotros.",
+    "mensaje": "Eres vencedor, no víctima"
+  },
+  {
+    "referencia": "Salmo 138:8",
+    "texto": "El Señor cumplirá Su propósito en mí; Tu misericordia, oh Señor, es para siempre.",
+    "mensaje": "Dios cumple aun lo imposible"
+  },
+  {
+    "referencia": "1 Corintios 15:54",
+    "texto": "«La muerte ha sido devorada en victoria».",
+    "mensaje": "Su fidelidad nunca se agota"
+  },
+  {
+    "referencia": "Salmo 92:4",
+    "texto": "Porque Tú, oh Señor, me has alegrado con Tus obras, cantaré de gozo por las obras de Tus manos.",
+    "mensaje": "Levántate en la fuerza de Dios"
+  },
+  {
+    "referencia": "Santiago 1:12",
+    "texto": "Bienaventurado el hombre que persevera bajo la prueba, porque una vez que haya sido aprobado, recibirá la corona de la vida que el Señor ha prometido a los que Lo aman.",
+    "mensaje": "Eres más fuerte con Dios contigo"
+  },
+  {
+    "referencia": "Salmo 146:6",
+    "texto": "Que hizo los cielos y la tierra, el mar y todo lo que en ellos hay; que guarda la verdad para siempre.",
+    "mensaje": "Dios respalda cada promesa Suya"
+  },
+  {
+    "referencia": "Salmo 121:3",
+    "texto": "No permitirá que tu pie resbale; no se adormecerá el que te guarda.",
+    "mensaje": "La victoria comienza en tu fe"
+  },
+  {
+    "referencia": "Apocalipsis 2:10",
+    "texto": "«Sé fiel hasta la muerte, y Yo te daré la corona de la vida».",
+    "mensaje": "Su fidelidad es tu roca firme"
+  },
+  {
+    "referencia": "Salmo 111:7",
+    "texto": "Las obras de Sus manos son verdad y juicio; confiables son todos Sus preceptos.",
+    "mensaje": "Dios ya ganó esta batalla"
+  },
+  {
+    "referencia": "Salmo 40:1-2",
+    "texto": "Pacientemente esperé al Señor, y Él se inclinó a mí y oyó mi clamor. Me sacó del pozo de la desesperación, del lodo cenagoso; puso mis pies sobre una roca y afirmó mis pasos.",
+    "mensaje": "Eres heredero de Sus promesas"
+  },
+  {
+    "referencia": "Números 23:19",
+    "texto": "Dios no es hombre, para que mienta, ni hijo de hombre, para que se arrepienta. ¿Ha dicho Él, y no lo hará? ¿Ha hablado, y no lo cumplirá?",
+    "mensaje": "Confía, Dios nunca falla"
+  },
+  {
+    "referencia": "Apocalipsis 22:13",
+    "texto": "«Yo soy el Alfa y la Omega, el Primero y el Último, el Principio y el Fin».",
+    "mensaje": "Eres vencedor por siempre en Él"
   }
 ]
