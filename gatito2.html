@@ -3,56 +3,721 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nuestros momentos 📸</title>
+  <title>Bloc de notas 💛</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Quicksand:wght@400;500;700&family=Fredoka:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <style>
-    /* Acento propio de esta página: lavanda */
+    /* Acento propio de esta página: rosa cálido */
     :root {
-      --acento: var(--lavanda-fuerte);
-      --acento-suave: var(--lavanda);
+      --acento: var(--rosa-fuerte);
+      --acento-suave: var(--rosa);
+    }
+
+    .contenedor { max-width: 460px; }
+
+    /* ---------- Estados de pantalla (carga / bienvenida / app) ---------- */
+    .pantalla-estado {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      width: 100%;
+      text-align: center;
+      padding: 12px 0;
+    }
+    .pantalla-estado[hidden] { display: none; }
+
+    .spinner {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      border: 4px solid var(--acento-suave);
+      border-top-color: var(--acento);
+      animation: girar 0.8s linear infinite;
+    }
+    @keyframes girar { to { transform: rotate(360deg); } }
+
+    /* ---------- Bienvenida ---------- */
+    .tarjeta-bienvenida {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .texto-bienvenida {
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--texto);
+    }
+
+    .firma-bienvenida {
+      font-family: 'Pacifico', cursive;
+      font-size: 1.3rem;
+      color: var(--acento);
+      margin-top: -4px;
+    }
+
+    .btn-google {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 999px;
+      background: var(--acento);
+      color: #fff;
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      box-shadow: var(--sombra);
+      cursor: pointer;
+      transition: transform 0.15s ease;
+    }
+    .btn-google:active { transform: scale(0.97); }
+
+    .icono-google {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #fff;
+      color: #4285F4;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+    }
+
+    /* ---------- Mensajes de error ---------- */
+    .mensaje-error {
+      background: #fdeaea;
+      color: #b3401f;
+      border-radius: 12px;
+      padding: 10px 14px;
+      font-size: 0.85rem;
+      text-align: center;
+      width: 100%;
+    }
+    .mensaje-error[hidden] { display: none; }
+
+    /* ---------- App: cabecera ---------- */
+    #app-notas { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 18px; }
+    #app-notas[hidden] { display: none; }
+
+    .cabecera-app { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+    .subtitulo-app { font-size: 0.9rem; color: var(--texto-suave); font-style: italic; }
+    .link-logout {
+      background: none;
+      border: none;
+      color: var(--texto-suave);
+      font-size: 0.78rem;
+      text-decoration: underline;
+      text-decoration-style: dashed;
+      cursor: pointer;
+      margin-top: 6px;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    /* ---------- Formulario nota nueva ---------- */
+    .tarjeta-form {
+      background: var(--blanco);
+      border-radius: var(--radio);
+      box-shadow: var(--sombra);
+      border: 2px solid var(--acento-suave);
+      padding: 20px 18px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .chips-categoria { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+
+    .chip-categoria {
+      border: none;
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 600;
+      font-size: 0.82rem;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      opacity: 0.55;
+    }
+    .chip-categoria.seleccionada {
+      opacity: 1;
+      box-shadow: 0 0 0 2px rgba(90,74,74,0.35), 0 4px 10px rgba(0,0,0,0.18);
+      transform: translateY(-1px);
+    }
+
+    .tarjeta-form input[type="text"],
+    .tarjeta-form textarea,
+    .nota-card-editar input[type="text"],
+    .nota-card-editar textarea {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 2px solid var(--acento-suave);
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1rem;
+      color: var(--texto);
+      background: #fffdfb;
+    }
+    .tarjeta-form textarea,
+    .nota-card-editar textarea {
+      resize: vertical;
+      min-height: 110px;
+      line-height: 1.5;
+    }
+    .tarjeta-form input:focus,
+    .tarjeta-form textarea:focus,
+    .nota-card-editar input:focus,
+    .nota-card-editar textarea:focus {
+      outline: none;
+      border-color: var(--acento);
+    }
+
+    .btn-guardar {
+      width: 100%;
+      padding: 13px;
+      border: none;
+      border-radius: 999px;
+      background: var(--acento);
+      color: #fff;
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      box-shadow: var(--sombra);
+    }
+    .btn-guardar:disabled { opacity: 0.6; cursor: default; }
+
+    /* ---------- Lista de notas ---------- */
+    .lista-notas { width: 100%; display: flex; flex-direction: column; gap: 14px; }
+
+    .estado-lista { color: var(--texto-suave); font-size: 0.95rem; padding: 16px 0; }
+
+    .nota-card {
+      background: var(--blanco);
+      border-radius: 18px;
+      box-shadow: var(--sombra);
+      padding: 16px 18px;
+      border-left: 5px solid var(--acento);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      text-align: left;
+    }
+
+    .nota-cabecera { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+
+    .etiqueta-categoria {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-family: 'Fredoka', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .acciones-nota { display: flex; gap: 4px; flex-shrink: 0; }
+    .btn-icono {
+      background: none;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      opacity: 0.55;
+      padding: 2px 4px;
+    }
+    .btn-icono:active { opacity: 1; }
+
+    .nota-titulo {
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 600;
+      font-size: 1.05rem;
+      color: var(--texto);
+      text-align: left;
+      margin: 0;
+    }
+
+    .nota-texto {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 0.95rem;
+      line-height: 1.55;
+      color: var(--texto);
+      white-space: pre-wrap;
+      text-align: left;
+      margin: 0;
+    }
+
+    .nota-fecha {
+      font-size: 0.75rem;
+      color: var(--texto-suave);
+      font-style: italic;
+      text-align: left;
+      margin: 0;
+    }
+
+    /* ---------- Modo edición de una nota ---------- */
+    .nota-card-editar { border-left-color: var(--acento-suave); gap: 10px; }
+    .acciones-edicion { display: flex; gap: 8px; justify-content: flex-end; }
+
+    .btn-secundario, .btn-guardar-chico {
+      border: none;
+      border-radius: 999px;
+      padding: 9px 16px;
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+    .btn-secundario { background: #f0ecec; color: var(--texto-suave); }
+    .btn-guardar-chico { background: var(--acento); color: #fff; }
+    .btn-guardar-chico:disabled { opacity: 0.6; }
+
+    /* ---------- Responsive: pantallas muy chicas ---------- */
+    @media (max-width: 340px) {
+      .chip-categoria { font-size: 0.75rem; padding: 7px 11px; }
+      .nota-texto { font-size: 0.9rem; }
     }
   </style>
 </head>
 <body>
 
   <div class="contenedor">
-    <div class="emoji-gato">😺</div>
-    <h1>Nuestros momentos 📸</h1>
-    <p>Un ratito de todo lo que vivimos juntas</p>
+    <div class="emoji-gato">📝</div>
 
-    <!-- REEMPLAZAR: cada .item-galeria es una foto + anécdota. Podés agregar/quitar bloques (recomendado 4 a 6) -->
-    <div class="galeria">
-      <div class="item-galeria">
-        <div class="foto-placeholder">[FOTO]</div>
-        <p class="anecdota"><!-- REEMPLAZAR: anécdota 1 -->[anécdota o chiste interno]</p>
+    <!-- Pantalla de carga inicial (mientras se resuelve el estado de sesión) -->
+    <div id="pantalla-carga" class="pantalla-estado">
+      <div class="spinner" aria-hidden="true"></div>
+      <p>Cargando…</p>
+    </div>
+
+    <!-- Pantalla de bienvenida (solo se ve la primera vez, sin sesión activa) -->
+    <div id="pantalla-bienvenida" class="pantalla-estado" hidden>
+      <div class="tarjeta-bienvenida">
+        <h1>Tu espacio 💛</h1>
+        <p class="texto-bienvenida">
+          Este es tu espacio 💛 Un lugar solo para vos, para anotar tus reflexiones,
+          ideas, o eso que sentís que Dios te habló. Volvé cuando quieras, va a estar esperándote.
+        </p>
+        <button id="btn-login" class="btn-google" type="button">
+          <span class="icono-google">G</span>
+          <span>Entrar con Google</span>
+        </button>
+        <p id="error-login" class="mensaje-error" hidden></p>
       </div>
-      <div class="item-galeria">
-        <div class="foto-placeholder">[FOTO]</div>
-        <p class="anecdota"><!-- REEMPLAZAR: anécdota 2 -->[anécdota o chiste interno]</p>
+    </div>
+
+    <!-- App principal (visible con sesión activa) -->
+    <div id="app-notas" hidden>
+      <div class="cabecera-app">
+        <h1>Bloc de notas 📝</h1>
+        <p class="subtitulo-app">Un espacio solo para vos</p>
+        <button id="btn-logout" class="link-logout" type="button">cerrar sesión</button>
       </div>
-      <div class="item-galeria">
-        <div class="foto-placeholder">[FOTO]</div>
-        <p class="anecdota"><!-- REEMPLAZAR: anécdota 3 -->[anécdota o chiste interno]</p>
-      </div>
-      <div class="item-galeria">
-        <div class="foto-placeholder">[FOTO]</div>
-        <p class="anecdota"><!-- REEMPLAZAR: anécdota 4 -->[anécdota o chiste interno]</p>
-      </div>
-      <div class="item-galeria">
-        <div class="foto-placeholder">[FOTO]</div>
-        <p class="anecdota"><!-- REEMPLAZAR: anécdota 5 -->[anécdota o chiste interno]</p>
-      </div>
-      <div class="item-galeria">
-        <div class="foto-placeholder">[FOTO]</div>
-        <p class="anecdota"><!-- REEMPLAZAR: anécdota 6 -->[anécdota o chiste interno]</p>
+
+      <form id="form-nota" class="tarjeta-form">
+        <div class="chips-categoria" id="chips-categoria"></div>
+        <input type="text" id="input-titulo" placeholder="Título (opcional)" maxlength="80">
+        <textarea id="input-texto" placeholder="Escribí lo que sentís, pensás, o lo que Dios te habló…" rows="4"></textarea>
+        <button type="submit" id="btn-guardar" class="btn-guardar">Guardar</button>
+        <p id="error-guardar" class="mensaje-error" hidden></p>
+      </form>
+
+      <div id="lista-notas" class="lista-notas">
+        <p class="estado-lista">Cargando tus notas…</p>
       </div>
     </div>
 
     <a class="volver" href="index.html">← volver</a>
   </div>
+
+  <script>
+    // Red de seguridad: si Firebase no llega a cargar (sin conexión, CDN
+    // bloqueado, etc.) no dejamos a Marian mirando el spinner para siempre.
+    setTimeout(function () {
+      var carga = document.getElementById('pantalla-carga');
+      if (carga && !carga.hidden) {
+        carga.innerHTML = '<p class="mensaje-error">No pudimos conectar. Revisá tu internet y volvé a intentar recargando la página.</p>';
+      }
+    }, 9000);
+
+    // Evita que el teclado tape el campo que se está escribiendo en mobile.
+    document.addEventListener('focusin', function (e) {
+      var t = e.target;
+      if (t.tagName === 'TEXTAREA' || (t.tagName === 'INPUT' && t.type === 'text')) {
+        setTimeout(function () {
+          t.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 300);
+      }
+    });
+  </script>
+
+  <script type="module">
+    import { initializeApp }
+      from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js';
+    import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged }
+      from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js';
+    import { getFirestore, collection, addDoc, updateDoc, deleteDoc, doc, onSnapshot, query, where, serverTimestamp }
+      from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js';
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyBk3rAYyAIHu9Rna6fOycCEJVjx6fs7cxg",
+      authDomain: "sistema-tracy.firebaseapp.com",
+      projectId: "sistema-tracy",
+      storageBucket: "sistema-tracy.firebasestorage.app",
+      messagingSenderId: "245671404273",
+      appId: "1:245671404273:web:6aa60f32ac1b0960463f50"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+    const provider = new GoogleAuthProvider();
+
+    // Mismas 4 paletas que gatito3 (versículo del día), en el mismo orden
+    // que pidió Marian: Reflexión, Idea, Algo que Dios me habló, Recordar.
+    const CATEGORIAS = [
+      { id: 'reflexion', label: 'Reflexión', fondo: '#94DEFF', acento: '#FF277F', textoSticker: '#ffffff' },
+      { id: 'idea', label: 'Idea', fondo: '#FAF0EA', acento: '#E19AA6', textoSticker: '#3a2222' },
+      { id: 'dios', label: 'Algo que Dios me habló', fondo: '#F3F6FF', acento: '#3770BF', textoSticker: '#ffffff' },
+      { id: 'recordar', label: 'Recordar', fondo: '#FEFFAF', acento: '#78A2D2', textoSticker: '#2b2a1e' }
+    ];
+    const MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+
+    function obtenerCategoria(id) {
+      return CATEGORIAS.find(c => c.id === id) || CATEGORIAS[0];
+    }
+
+    function chipsCategoriaHTML(seleccionadoId) {
+      return CATEGORIAS.map(function (cat) {
+        var sel = cat.id === seleccionadoId ? ' seleccionada' : '';
+        return '<button type="button" class="chip-categoria' + sel + '" data-cat="' + cat.id + '" ' +
+          'style="background:' + cat.acento + ';color:' + cat.textoSticker + ';">' + cat.label + '</button>';
+      }).join('');
+    }
+
+    function formatearFecha(fecha) {
+      var d = (fecha && typeof fecha.toDate === 'function') ? fecha.toDate() : new Date();
+      return d.getDate() + ' de ' + MESES[d.getMonth()];
+    }
+
+    // Timestamp pendiente de confirmación del servidor: la tratamos como
+    // "ahora mismo" para que la nota recién creada quede primera en la lista.
+    function obtenerMillis(fecha) {
+      return (fecha && typeof fecha.toMillis === 'function') ? fecha.toMillis() : Date.now();
+    }
+
+    // ---------- Referencias del DOM ----------
+    const pantallaCarga = document.getElementById('pantalla-carga');
+    const pantallaBienvenida = document.getElementById('pantalla-bienvenida');
+    const appNotas = document.getElementById('app-notas');
+    const btnLogin = document.getElementById('btn-login');
+    const errorLogin = document.getElementById('error-login');
+    const btnLogout = document.getElementById('btn-logout');
+    const formNota = document.getElementById('form-nota');
+    const chipsCategoriaNueva = document.getElementById('chips-categoria');
+    const inputTitulo = document.getElementById('input-titulo');
+    const inputTexto = document.getElementById('input-texto');
+    const btnGuardar = document.getElementById('btn-guardar');
+    const errorGuardar = document.getElementById('error-guardar');
+    const listaNotas = document.getElementById('lista-notas');
+
+    chipsCategoriaNueva.innerHTML = chipsCategoriaHTML(CATEGORIAS[0].id);
+
+    function mostrarPantalla(nombre) {
+      pantallaCarga.hidden = nombre !== 'carga';
+      pantallaBienvenida.hidden = nombre !== 'bienvenida';
+      appNotas.hidden = nombre !== 'app';
+    }
+
+    // Selección de categoría por click, delegado a nivel documento
+    // porque las tarjetas en modo edición se crean dinámicamente.
+    document.addEventListener('click', function (e) {
+      const chip = e.target.closest('.chip-categoria');
+      if (!chip) return;
+      const grupo = chip.parentElement;
+      grupo.querySelectorAll('.chip-categoria').forEach(function (c) { c.classList.remove('seleccionada'); });
+      chip.classList.add('seleccionada');
+    });
+
+    // ---------- Estado de notas ----------
+    let currentUser = null;
+    let notas = [];
+    let notasCargando = true;
+    let notasError = null;
+    let editandoId = null;
+    let unsubscribeNotas = null;
+
+    function renderNotas() {
+      if (notasError) {
+        listaNotas.innerHTML = '<p class="mensaje-error">' + notasError + '</p>';
+        return;
+      }
+      if (notasCargando) {
+        listaNotas.innerHTML = '<p class="estado-lista">Cargando tus notas…</p>';
+        return;
+      }
+      if (notas.length === 0) {
+        listaNotas.innerHTML = '<p class="estado-lista">Todavía no escribiste ninguna nota. Este espacio te está esperando ✨</p>';
+        return;
+      }
+      listaNotas.innerHTML = '';
+      notas.forEach(function (nota) {
+        const el = (editandoId === nota.id) ? crearTarjetaEdicion(nota) : crearTarjetaNota(nota);
+        listaNotas.appendChild(el);
+      });
+    }
+
+    function crearTarjetaNota(nota) {
+      const cat = obtenerCategoria(nota.categoria);
+      const card = document.createElement('div');
+      card.className = 'nota-card';
+      card.style.borderLeftColor = cat.acento;
+
+      const cabecera = document.createElement('div');
+      cabecera.className = 'nota-cabecera';
+
+      const badge = document.createElement('span');
+      badge.className = 'etiqueta-categoria';
+      badge.style.background = cat.acento;
+      badge.style.color = cat.textoSticker;
+      badge.textContent = cat.label;
+
+      const acciones = document.createElement('div');
+      acciones.className = 'acciones-nota';
+
+      const btnEditar = document.createElement('button');
+      btnEditar.type = 'button';
+      btnEditar.className = 'btn-icono';
+      btnEditar.title = 'Editar';
+      btnEditar.textContent = '✏️';
+      btnEditar.addEventListener('click', function () { editandoId = nota.id; renderNotas(); });
+
+      const btnBorrar = document.createElement('button');
+      btnBorrar.type = 'button';
+      btnBorrar.className = 'btn-icono';
+      btnBorrar.title = 'Borrar';
+      btnBorrar.textContent = '🗑️';
+      btnBorrar.addEventListener('click', function () { borrarNota(nota.id); });
+
+      acciones.append(btnEditar, btnBorrar);
+      cabecera.append(badge, acciones);
+      card.appendChild(cabecera);
+
+      if (nota.titulo) {
+        const h = document.createElement('p');
+        h.className = 'nota-titulo';
+        h.textContent = nota.titulo;
+        card.appendChild(h);
+      }
+
+      const p = document.createElement('p');
+      p.className = 'nota-texto';
+      p.textContent = nota.texto;
+      card.appendChild(p);
+
+      const fecha = document.createElement('p');
+      fecha.className = 'nota-fecha';
+      fecha.textContent = formatearFecha(nota.fecha);
+      card.appendChild(fecha);
+
+      return card;
+    }
+
+    function crearTarjetaEdicion(nota) {
+      const card = document.createElement('div');
+      card.className = 'nota-card nota-card-editar';
+
+      const chipsWrap = document.createElement('div');
+      chipsWrap.className = 'chips-categoria';
+      chipsWrap.innerHTML = chipsCategoriaHTML(nota.categoria);
+      card.appendChild(chipsWrap);
+
+      const inputTit = document.createElement('input');
+      inputTit.type = 'text';
+      inputTit.maxLength = 80;
+      inputTit.placeholder = 'Título (opcional)';
+      inputTit.value = nota.titulo || '';
+      card.appendChild(inputTit);
+
+      const textArea = document.createElement('textarea');
+      textArea.rows = 4;
+      textArea.value = nota.texto;
+      card.appendChild(textArea);
+
+      const errP = document.createElement('p');
+      errP.className = 'mensaje-error';
+      errP.hidden = true;
+      card.appendChild(errP);
+
+      const accionesEd = document.createElement('div');
+      accionesEd.className = 'acciones-edicion';
+
+      const btnCancelar = document.createElement('button');
+      btnCancelar.type = 'button';
+      btnCancelar.className = 'btn-secundario';
+      btnCancelar.textContent = 'Cancelar';
+      btnCancelar.addEventListener('click', function () { editandoId = null; renderNotas(); });
+
+      const btnGuardarEd = document.createElement('button');
+      btnGuardarEd.type = 'button';
+      btnGuardarEd.className = 'btn-guardar-chico';
+      btnGuardarEd.textContent = 'Guardar cambios';
+      btnGuardarEd.addEventListener('click', async function () {
+        const chipSel = chipsWrap.querySelector('.chip-categoria.seleccionada');
+        const categoria = chipSel ? chipSel.dataset.cat : nota.categoria;
+        const titulo = inputTit.value.trim();
+        const texto = textArea.value.trim();
+        if (!texto) {
+          errP.textContent = 'La nota no puede quedar vacía 💭';
+          errP.hidden = false;
+          return;
+        }
+        btnGuardarEd.disabled = true;
+        btnGuardarEd.textContent = 'Guardando…';
+        try {
+          await updateDoc(doc(db, 'notas_marian', nota.id), { titulo: titulo, texto: texto, categoria: categoria });
+          editandoId = null;
+          // onSnapshot trae los datos actualizados y vuelve a renderizar.
+        } catch (err) {
+          console.error('Error al editar nota:', err);
+          errP.textContent = 'No pudimos guardar los cambios. Revisá tu conexión e intentá de nuevo.';
+          errP.hidden = false;
+          btnGuardarEd.disabled = false;
+          btnGuardarEd.textContent = 'Guardar cambios';
+        }
+      });
+
+      accionesEd.append(btnCancelar, btnGuardarEd);
+      card.appendChild(accionesEd);
+
+      return card;
+    }
+
+    async function borrarNota(id) {
+      if (!confirm('¿Segura que querés borrar esta nota?')) return;
+      try {
+        await deleteDoc(doc(db, 'notas_marian', id));
+      } catch (err) {
+        console.error('Error al borrar nota:', err);
+        alert('No pudimos borrar la nota. Revisá tu conexión e intentá de nuevo.');
+      }
+    }
+
+    // Filtramos por uid sin orderBy en la consulta (el orden se hace en el
+    // cliente) para no depender de un índice compuesto en Firestore.
+    function attachListener(uid) {
+      notasCargando = true;
+      notasError = null;
+      renderNotas();
+      const q = query(collection(db, 'notas_marian'), where('uid', '==', uid));
+      unsubscribeNotas = onSnapshot(q, function (snap) {
+        notas = snap.docs.map(function (d) { return Object.assign({ id: d.id }, d.data()); });
+        notas.sort(function (a, b) { return obtenerMillis(b.fecha) - obtenerMillis(a.fecha); });
+        notasCargando = false;
+        notasError = null;
+        renderNotas();
+      }, function (err) {
+        console.error('Error en onSnapshot notas:', err);
+        notasCargando = false;
+        notasError = 'No pudimos cargar tus notas. Revisá tu conexión e intentá de nuevo.';
+        renderNotas();
+      });
+    }
+
+    // ---------- Formulario nota nueva ----------
+    formNota.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      if (!currentUser) return;
+
+      const chipSel = chipsCategoriaNueva.querySelector('.chip-categoria.seleccionada');
+      const categoria = chipSel ? chipSel.dataset.cat : CATEGORIAS[0].id;
+      const titulo = inputTitulo.value.trim();
+      const texto = inputTexto.value.trim();
+
+      errorGuardar.hidden = true;
+      if (!texto) {
+        errorGuardar.textContent = 'Escribí algo antes de guardar 💭';
+        errorGuardar.hidden = false;
+        return;
+      }
+
+      btnGuardar.disabled = true;
+      btnGuardar.textContent = 'Guardando…';
+      try {
+        await addDoc(collection(db, 'notas_marian'), {
+          uid: currentUser.uid,
+          titulo: titulo,
+          texto: texto,
+          categoria: categoria,
+          fecha: serverTimestamp()
+        });
+        formNota.reset();
+        chipsCategoriaNueva.querySelectorAll('.chip-categoria').forEach(function (c, i) {
+          c.classList.toggle('seleccionada', i === 0);
+        });
+      } catch (err) {
+        console.error('Error al guardar nota:', err);
+        errorGuardar.textContent = 'No pudimos guardar tu nota. Revisá tu conexión e intentá de nuevo.';
+        errorGuardar.hidden = false;
+      } finally {
+        btnGuardar.disabled = false;
+        btnGuardar.textContent = 'Guardar';
+      }
+    });
+
+    // ---------- Autenticación ----------
+    btnLogin.addEventListener('click', async function () {
+      errorLogin.hidden = true;
+      btnLogin.disabled = true;
+      try {
+        await signInWithPopup(auth, provider);
+      } catch (err) {
+        if (err.code !== 'auth/popup-closed-by-user' && err.code !== 'auth/cancelled-popup-request') {
+          console.error('Error de login:', err);
+          errorLogin.textContent = 'No pudimos iniciar sesión. Intentá de nuevo.';
+          errorLogin.hidden = false;
+        }
+      } finally {
+        btnLogin.disabled = false;
+      }
+    });
+
+    btnLogout.addEventListener('click', async function () {
+      try {
+        await signOut(auth);
+      } catch (err) {
+        console.error('Error al cerrar sesión:', err);
+      }
+    });
+
+    onAuthStateChanged(auth, function (user) {
+      currentUser = user;
+      if (user) {
+        mostrarPantalla('app');
+        if (!unsubscribeNotas) attachListener(user.uid);
+      } else {
+        if (unsubscribeNotas) { unsubscribeNotas(); unsubscribeNotas = null; }
+        notas = [];
+        editandoId = null;
+        mostrarPantalla('bienvenida');
+      }
+    }, function (err) {
+      console.error('Error de autenticación:', err);
+      mostrarPantalla('bienvenida');
+      errorLogin.textContent = 'No pudimos conectar. Revisá tu conexión e intentá de nuevo.';
+      errorLogin.hidden = false;
+    });
+  </script>
 
 </body>
 </html>
