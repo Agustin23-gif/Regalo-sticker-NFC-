@@ -6,7 +6,7 @@
   <title>Bloc de notas 💛</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Quicksand:wght@400;500;700&family=Fredoka:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Quicksand:wght@400;500;700&family=Fredoka:wght@400;500;600;700&family=Pacifico&family=Playball&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <style>
     /* Acento propio de esta página: rosa cálido */
@@ -16,6 +16,14 @@
     }
 
     .contenedor { max-width: 460px; }
+
+    /* ---------- Título ---------- */
+    h1 {
+      font-family: 'Playball', cursive;
+      font-weight: 400;
+      font-size: 2.3rem;
+      line-height: 1.25;
+    }
 
     /* ---------- Estados de pantalla (carga / bienvenida / app) ---------- */
     .pantalla-estado {
@@ -48,6 +56,8 @@
     }
 
     .texto-bienvenida {
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 500;
       font-size: 1.05rem;
       line-height: 1.65;
       color: var(--texto);
@@ -110,7 +120,7 @@
     #app-notas[hidden] { display: none; }
 
     .cabecera-app { display: flex; flex-direction: column; align-items: center; gap: 2px; }
-    .subtitulo-app { font-size: 0.9rem; color: var(--texto-suave); font-style: italic; }
+    .subtitulo-app { font-family: 'Fredoka', sans-serif; font-weight: 500; font-size: 0.9rem; color: var(--texto-suave); font-style: italic; }
     .link-logout {
       background: none;
       border: none;
@@ -164,7 +174,8 @@
       padding: 12px 14px;
       border-radius: 14px;
       border: 2px solid var(--acento-suave);
-      font-family: 'Quicksand', sans-serif;
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 500;
       font-size: 1rem;
       color: var(--texto);
       background: #fffdfb;
@@ -248,7 +259,8 @@
     }
 
     .nota-texto {
-      font-family: 'Quicksand', sans-serif;
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 500;
       font-size: 0.95rem;
       line-height: 1.55;
       color: var(--texto);
@@ -284,6 +296,7 @@
 
     /* ---------- Responsive: pantallas muy chicas ---------- */
     @media (max-width: 340px) {
+      h1 { font-size: 1.9rem; }
       .chip-categoria { font-size: 0.75rem; padding: 7px 11px; }
       .nota-texto { font-size: 0.9rem; }
     }
