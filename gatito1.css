@@ -21,6 +21,16 @@ h1 {
   line-height: 1.25;
 }
 
+/* ---------- Aviso del audio ---------- */
+.aviso-audio {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+  font-size: 0.85rem;
+  color: var(--texto-suave);
+  text-align: center;
+  margin-top: -12px;
+}
+
 /* ---------- Mensaje ---------- */
 .mensaje-tarjeta {
   text-align: left;
