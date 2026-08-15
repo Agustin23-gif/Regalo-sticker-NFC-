@@ -6,9 +6,6 @@
 
 :root {
   --scrap-fondo: #f5ede0;
-  --scrap-papel: #fffaf2;
-  --scrap-linea: rgba(120, 90, 60, 0.08);
-  --scrap-texto: #5a4636;
 }
 
 body {
@@ -45,211 +42,23 @@ body {
   text-align: center !important;
 }
 
-/* ---------- Sección scrapbook ---------- */
+/* ---------- Sección scrapbook (imagen de collage armada en Canva) ---------- */
 .scrapbook {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 18px;
   background: var(--scrap-fondo);
-  background-image:
-    repeating-linear-gradient(0deg, var(--scrap-linea) 0px, transparent 1px, transparent 26px),
-    repeating-linear-gradient(90deg, var(--scrap-linea) 0px, transparent 1px, transparent 26px);
   border-radius: var(--radio);
   box-shadow: var(--sombra);
   border: 2px solid #e6d5b8;
-  padding: 26px 16px 22px;
+  padding: 16px;
 }
 
-/* ---------- Título "FELIZ CUMPLEAÑOS" recortado tipo revista ---------- */
-.titulo-recorte {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  row-gap: 6px;
-  column-gap: 12px;
-  margin: 0 0 6px;
-  padding: 0 6px;
-}
-
-.palabra-recorte {
-  display: inline-flex;
-  flex-wrap: nowrap;
-}
-
-.letra {
-  display: inline-block;
-  padding: 2px 3px;
-  font-weight: 700;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.08);
-}
-
-.letra.c1 { font-family: 'Fredoka', sans-serif; color: #c9694a; font-size: 1.9rem; transform: rotate(-7deg); }
-.letra.c2 { font-family: 'Pacifico', cursive; color: #3c6e71; font-size: 1.7rem; transform: rotate(5deg) translateY(3px); }
-.letra.c3 { font-family: 'Baloo 2', sans-serif; color: #b98b2d; font-size: 2.1rem; transform: rotate(-3deg); }
-.letra.c4 { font-family: 'Fredoka', sans-serif; color: #8a9a5b; font-size: 1.6rem; transform: rotate(8deg) translateY(-2px); }
-.letra.c5 { font-family: 'Pacifico', cursive; color: #c97b84; font-size: 1.85rem; transform: rotate(-5deg); }
-.letra.c6 { font-family: 'Baloo 2', sans-serif; color: #6b4a3a; font-size: 2rem; transform: rotate(4deg); }
-.letra.c7 { font-family: 'Fredoka', sans-serif; color: #3c6e71; font-size: 1.75rem; transform: rotate(-8deg) translateY(2px); }
-.letra.c8 { font-family: 'Baloo 2', sans-serif; color: #c9694a; font-size: 1.95rem; transform: rotate(6deg); }
-
-/* ---------- Lienzo del collage (masonry) ---------- */
-.scrapbook-lienzo {
-  position: relative;
-  width: 100%;
-  column-count: 2;
-  column-gap: 14px;
-}
-
-@media (min-width: 480px) {
-  .scrapbook-lienzo {
-    column-count: 3;
-  }
-}
-
-.pieza-collage {
-  break-inside: avoid;
-  margin: 0 0 14px;
-}
-
-.pieza-collage.superpuesta {
-  margin-top: -22px;
-}
-
-.pieza-collage.amplia {
-  column-span: all;
-  max-width: 320px;
-  margin: 0 auto 14px;
-}
-
-.foto-collage {
+.collage-imagen {
   display: block;
   width: 100%;
-  border: 6px solid var(--scrap-papel);
-  border-radius: 6px;
-  box-shadow: 0 6px 14px rgba(70, 50, 30, 0.22);
-  background: var(--scrap-papel);
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
 }
-
-.foto-collage img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 2px;
-}
-
-.tam-s .foto-collage { aspect-ratio: 1 / 1; }
-.tam-m .foto-collage { aspect-ratio: 4 / 5; }
-.tam-g .foto-collage { aspect-ratio: 3 / 4; }
-
-.rot-1 { transform: rotate(-6deg); }
-.rot-2 { transform: rotate(4deg); }
-.rot-3 { transform: rotate(-3deg); }
-.rot-4 { transform: rotate(7deg); }
-.rot-5 { transform: rotate(-8deg); }
-.rot-6 { transform: rotate(2deg); }
-.rot-7 { transform: rotate(-4deg); }
-.rot-8 { transform: rotate(6deg); }
-
-/* ---------- Washi tape decorativo ---------- */
-.washi {
-  position: relative;
-  z-index: 1;
-}
-
-.washi::before {
-  content: "";
-  position: absolute;
-  top: -12px;
-  left: 50%;
-  width: 56px;
-  height: 22px;
-  background: rgba(201, 148, 65, 0.55);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  transform: translateX(-50%) rotate(-4deg);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
-  z-index: 2;
-}
-
-/* ---------- Marco tipo cámara digital retro ---------- */
-.marco-camara {
-  display: flex;
-  gap: 8px;
-  align-items: stretch;
-  padding: 10px 8px 10px 10px;
-  background: linear-gradient(160deg, #e2e6ea 0%, #aab0b8 100%);
-  border-radius: 18px;
-  box-shadow: 0 6px 14px rgba(40, 40, 40, 0.3);
-}
-
-.marco-camara .foto-interior {
-  flex: 1;
-  aspect-ratio: 4 / 3;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.15);
-}
-
-.marco-camara .foto-interior img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.marco-camara .controles-camara {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  width: 16px;
-}
-
-.marco-camara .controles-camara span {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #8b929b;
-  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-.marco-camara .controles-camara span.boton-obturador {
-  background: #d9564e;
-}
-
-/* ---------- Notitas manuscritas ---------- */
-.nota-manuscrita {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 90px;
-  padding: 14px 12px;
-  background: #fff6da;
-  border-radius: 4px;
-  box-shadow: 0 5px 12px rgba(70, 50, 30, 0.2);
-  font-family: 'Pacifico', cursive;
-  font-size: 1.15rem;
-  line-height: 1.35;
-  color: var(--scrap-texto);
-  text-align: center;
-}
-
-/* ---------- Estrellitas sueltas ---------- */
-.estrella-suelta {
-  position: absolute;
-  pointer-events: none;
-  z-index: 3;
-  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.15));
-}
-
-.estrella-suelta.e1 { top: 4px; left: 6px; font-size: 1.1rem; transform: rotate(-10deg); }
-.estrella-suelta.e2 { top: 38%; right: 2px; font-size: 1rem; transform: rotate(12deg); }
-.estrella-suelta.e3 { bottom: 6%; left: 0; font-size: 1.2rem; transform: rotate(-8deg); }
-.estrella-suelta.e4 { top: 62%; left: 46%; font-size: 0.9rem; transform: rotate(15deg); }
 
 /* ---------- Reproductor de audio ---------- */
 .audio-tarjeta {
@@ -334,8 +143,5 @@ body {
 
 /* ---------- Responsive: pantallas muy chicas ---------- */
 @media (max-width: 340px) {
-  .letra.c1, .letra.c3, .letra.c6, .letra.c8 { font-size: 1.5rem; }
-  .letra.c2, .letra.c4, .letra.c5, .letra.c7 { font-size: 1.3rem; }
-  .scrapbook-lienzo { column-gap: 10px; }
-  .pieza-collage { margin-bottom: 10px; }
+  .scrapbook { padding: 12px; }
 }
